@@ -211,6 +211,15 @@ export const CAMERA_POSES = {
   interior: { position: [3.4, 1.3, 3.2], target: [-0.3, 0.5, 0] },
   spotlight: { position: [3.9, 1.6, 3.0], target: [0.2, 0.7, 0.2] },
   exploded: { position: [9.6, 3.2, 10.4], target: [0.7, 0.1, 0] },
+  // Per-component close-ups. Each frames its part against the open side of
+  // the case, close enough to read detail without clipping the chassis.
+  focusRAM:    { position: [3.4, 1.9, 2.4],  target: [-0.3, 1.05, 0.8] },
+  focusGPU:    { position: [4.0, 0.4, 2.2],  target: [0.1, -0.35, -0.2] },
+  focusCooler: { position: [3.6, 1.8, 1.9],  target: [-0.1, 1.0, -0.1] },
+  focusCPU:    { position: [2.6, 1.6, 1.5],  target: [-0.5, 1.0, 0.1] },
+  focusSSD:    { position: [2.9, 0.9, 1.2],  target: [-0.5, 0.3, -0.55] },
+  focusBoard:  { position: [4.6, 1.0, 2.8],  target: [-0.6, 0.45, -0.1] },
+  focusPSU:    { position: [3.6, -1.1, 2.4], target: [-0.1, -1.65, -1.0] },
   explodedOrbit: { position: [-6.0, 4.4, 12.2], target: [0.7, 0.1, 0] },
   final: { position: [6.2, 2.4, 7.6], target: [0, 0.1, 0] },
 } as const satisfies Record<string, CameraPose>;
@@ -224,16 +233,18 @@ export const STAGES = [
   { label: "hero", duration: 0.9 },
   { label: "approach", duration: 1.3 },
   { label: "openCase", duration: 1.6 },
-  { label: "inspectInterior", duration: 1.1 },
-  { label: "removeCooler", duration: 1.1 },
-  { label: "removeCPU", duration: 1.0 },
-  { label: "removeRAM", duration: 1.0 },
-  { label: "removeGPU", duration: 1.3 },
-  { label: "removeSSD", duration: 0.9 },
-  { label: "removePSU", duration: 1.0 },
-  { label: "removeMotherboard", duration: 1.0 },
+  { label: "inspectInterior", duration: 1.0 },
+  // Each component stage is long enough to read its description before the
+  // part starts moving (brief: sufficient scroll distance per spotlight).
+  { label: "removeRAM", duration: 2.4 },
+  { label: "removeGPU", duration: 2.4 },
+  { label: "removeCooler", duration: 2.4 },
+  { label: "removeCPU", duration: 2.2 },
+  { label: "removeSSD", duration: 2.2 },
+  { label: "removeMotherboard", duration: 2.2 },
+  { label: "removePSU", duration: 2.2 },
   { label: "fullExploded", duration: 2.4 },
-  { label: "reassemble", duration: 2.8 },
+  { label: "reassemble", duration: 3.0 },
   { label: "closeCase", duration: 1.2 },
   { label: "finalReveal", duration: 1.4 },
 ] as const;
@@ -241,5 +252,5 @@ export const STAGES = [
 export type StageLabel = (typeof STAGES)[number]["label"];
 
 /** Total scroll distance for the pinned sequence, in viewport heights (brief 8.3). */
-export const SCROLL_VH_DESKTOP = 1400;
+export const SCROLL_VH_DESKTOP = 2000;
 export const SCROLL_VH_MOBILE = 800;

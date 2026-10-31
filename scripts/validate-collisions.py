@@ -7,9 +7,9 @@ for n,s,a,e,r in blocks:
     SIZE[n]=f(s);ASM[n]=f(a);EXP[n]=f(e);ROT[n]=f(r) if r else [0,0,0]
 STAGING_X=2.3
 STAGED={"CASE_GLASS_PANEL","COOLER","CPU","RAM_01","RAM_02","GPU","SSD","PSU"}
-SEQ=[("removeCooler",["COOLER"]),("removeCPU",["CPU"]),("removeRAM",["RAM_01","RAM_02"]),
-     ("removeGPU",["GPU"]),("removeSSD",["SSD"]),("removePSU",["PSU"]),
-     ("removeMotherboard",["MOTHERBOARD","CASE_CHASSIS"])]
+SEQ=[("removeRAM",["RAM_01","RAM_02"]),("removeGPU",["GPU"]),("removeCooler",["COOLER"]),
+     ("removeCPU",["CPU"]),("removeSSD",["SSD"]),
+     ("removeMotherboard",["MOTHERBOARD","CASE_CHASSIS"]),("removePSU",["PSU"])]
 w,h,d=SIZE["CASE_CHASSIS"]; t=0.07
 PANELS={"floor":([w,t,d],[0,-h/2,0]),"ceiling":([w,t,d],[0,h/2,0]),
         "back":([w,h,t],[0,0,-d/2]),"farside":([t,h,d],[-w/2,0,0]),

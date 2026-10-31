@@ -20,16 +20,30 @@ import {
   type PartId,
 } from "@/lib/animation/choreography";
 
-/** Parts leave the chassis in mechanically plausible order (brief 4.6). */
-const REMOVAL_SEQUENCE: readonly { stage: string; parts: readonly PartId[] }[] = [
-  { stage: "removeCooler", parts: ["COOLER"] },
-  { stage: "removeCPU", parts: ["CPU"] },
-  { stage: "removeRAM", parts: ["RAM_01", "RAM_02"] },
-  { stage: "removeGPU", parts: ["GPU"] },
-  { stage: "removeSSD", parts: ["SSD"] },
-  { stage: "removePSU", parts: ["PSU"] },
-  { stage: "removeMotherboard", parts: ["MOTHERBOARD", "CASE_CHASSIS"] },
+/**
+ * Removal order, per the directive:
+ * RAM -> GPU -> cooling -> CPU -> SSD -> motherboard -> PSU.
+ *
+ * Each step is: move the camera to a close-up, fade in the description, HOLD
+ * long enough to read it, then extract the part. The hold is what turns this
+ * from a motion showreel into something a visitor can actually follow.
+ */
+const REMOVAL_SEQUENCE: readonly {
+  stage: string;
+  parts: readonly PartId[];
+  pose: keyof typeof CAMERA_POSES;
+}[] = [
+  { stage: "removeRAM", parts: ["RAM_01", "RAM_02"], pose: "focusRAM" },
+  { stage: "removeGPU", parts: ["GPU"], pose: "focusGPU" },
+  { stage: "removeCooler", parts: ["COOLER"], pose: "focusCooler" },
+  { stage: "removeCPU", parts: ["CPU"], pose: "focusCPU" },
+  { stage: "removeSSD", parts: ["SSD"], pose: "focusSSD" },
+  { stage: "removeMotherboard", parts: ["MOTHERBOARD", "CASE_CHASSIS"], pose: "focusBoard" },
+  { stage: "removePSU", parts: ["PSU"], pose: "focusPSU" },
 ];
+
+/** Fraction of each stage spent reading before the part begins to move. */
+const DWELL = 0.42;
 
 export function CinematicExperience() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -102,25 +116,28 @@ export function CinematicExperience() {
 
         // ---- Disassembly ------------------------------------------------------
         for (const step of REMOVAL_SEQUENCE) {
-          step.parts.forEach((id, i) => {
-            // power3.in starts slow and accelerates: parts look like they are
-            // being pulled free rather than gliding on rails.
-            animatePart(id, "exploded", `${step.stage}+=${i * 0.14}`, 0.95, "power3.inOut");
-          });
+          // 1. Move in close on the component.
+          moveCamera(CAMERA_POSES[step.pose], step.stage, 0.8, "sine.inOut");
 
+          // 2. Bring in its description and hold it while the reader catches up.
           const spotlightPart = step.parts[0];
           if (spotlightPart) {
             tl.fromTo(
               `[data-spotlight="${spotlightPart}"]`,
               { opacity: 0, y: 28, filter: "blur(6px)" },
-              { opacity: 1, y: 0, filter: "blur(0px)", duration: 0.34, ease: "power2.out" },
-              step.stage,
+              { opacity: 1, y: 0, filter: "blur(0px)", duration: 0.35, ease: "power2.out" },
+              `${step.stage}+=0.15`,
             ).to(
               `[data-spotlight="${spotlightPart}"]`,
-              { opacity: 0, y: -18, filter: "blur(6px)", duration: 0.28, ease: "power2.in" },
-              `${step.stage}+=0.74`,
+              { opacity: 0, y: -18, filter: "blur(6px)", duration: 0.3, ease: "power2.in" },
+              `${step.stage}+=1.75`,
             );
           }
+
+          // 3. Only now does the part come out.
+          step.parts.forEach((id, i) => {
+            animatePart(id, "exploded", `${step.stage}+=${DWELL + i * 0.16}`, 1.1, "power3.inOut");
+          });
         }
 
         // ---- Payoff: hold the exploded view and orbit it slowly ---------------
