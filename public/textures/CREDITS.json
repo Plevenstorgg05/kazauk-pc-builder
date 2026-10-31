@@ -1,0 +1,15 @@
+{
+  "_comment": "Third-party texture attribution. Required for licence compliance.",
+  "source": "ambientCG.com",
+  "licence": "CC0 1.0 Universal (public domain) - no attribution legally required, recorded for provenance",
+  "retrieved": "2026-10-31",
+  "processing": "Downloaded as 1K JPG, downscaled to 512px for web delivery",
+  "materials": {
+    "brushed": { "asset": "Metal009", "use": "brushed aluminium - fins, brackets, IHS",
+      "maps": ["brushed_color.jpg", "brushed_normal.jpg", "brushed_rough.jpg"] },
+    "plate":   { "asset": "Metal051A", "use": "powder-coated steel - chassis",
+      "maps": ["plate_color.jpg", "plate_normal.jpg", "plate_rough.jpg"] },
+    "plastic": { "asset": "Plastic010", "use": "moulded plastic - fan frames, shrouds, PCB",
+      "maps": ["plastic_color.jpg", "plastic_normal.jpg", "plastic_rough.jpg"] }
+  }
+}

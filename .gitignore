@@ -29,3 +29,10 @@ yarn-error.log*
 # misc
 .cache/
 coverage/
+
+# Large 3D source assets (licence record in public/models/source/README.md IS tracked)
+public/models/source/*
+!public/models/source/README.md
+
+# TypeScript incremental build cache
+*.tsbuildinfo

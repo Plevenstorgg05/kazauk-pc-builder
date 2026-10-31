@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+/*
+  Design tokens — Tailwind v4 is CSS-first, so these ARE the config.
+  DEMONSTRATION PALETTE (brief 3.2): IONZ brand assets have not been sourced yet,
+  so nothing here claims to be official brand colour. Pending approval.
+*/
+@theme {
+  /* Surfaces — near-black through charcoal/graphite */
+  --color-void: #08090a;
+  --color-surface: #111315;
+  --color-raised: #181b1e;
+  --color-line: #26292d;
+  --color-graphite: #3a3f45;
+
+  /* Type */
+  --color-ink: #f4f6f7;
+  --color-ink-muted: #9aa2a9;
+  --color-ink-faint: #6b7279;
+
+  /* Single restrained accent — cool steel, not gaming neon */
+  --color-accent: #58a6ff;
+
+  /*
+    Compatibility status colours (brief 11.1).
+    needs_verification / insufficient_data / warning all render amber;
+    they are told apart by icon + text label, never by colour alone.
+  */
+  --color-status-ok: #3fb950;
+  --color-status-fail: #f85149;
+  --color-status-caution: #d29922;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono-tech), ui-monospace, "SF Mono", monospace;
+}
+
+@layer base {
+  html {
+    /* Lenis drives scrolling; native smooth would fight it (brief 7.1). */
+    scroll-behavior: auto;
+  }
+
+  body {
+    background-color: var(--color-void);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Visible focus for every keyboard user (brief 16). */
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
