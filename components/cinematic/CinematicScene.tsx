@@ -141,7 +141,7 @@ export function CinematicScene({
       */}
       <EffectComposer enableNormalPass={false}>
         <Bloom intensity={1.15} luminanceThreshold={1.0} luminanceSmoothing={0.3} mipmapBlur radius={0.72} />
-        <Vignette eskil={false} offset={0.22} darkness={0.72} />
+        <Vignette eskil={false} offset={0.32} darkness={0.42} />
         <SMAA />
       </EffectComposer>
 

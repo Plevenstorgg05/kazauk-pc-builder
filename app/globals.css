@@ -65,3 +65,30 @@
     }
   }
 }
+
+/*
+  Cinematic scroll distance.
+  Mobile gets a much shorter run: the same choreography plays out, but a
+  visitor on a phone should not have to scroll 20 screens to reach the
+  configurator (brief 8.3, 15.5). ScrollTrigger recalculates on resize via
+  invalidateOnRefresh, so switching breakpoints mid-session is safe.
+*/
+.cinematic-scroll { height: 2000vh; }
+@media (max-width: 1024px) { .cinematic-scroll { height: 1400vh; } }
+@media (max-width: 640px)  { .cinematic-scroll { height: 900vh; } }
+
+/* Skip link: visible only when focused. */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 100;
+  border-radius: 0.375rem;
+  background: var(--color-ink);
+  color: var(--color-void);
+  padding: 0.65rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: top 0.15s ease;
+}
+.skip-link:focus { top: 1rem; }

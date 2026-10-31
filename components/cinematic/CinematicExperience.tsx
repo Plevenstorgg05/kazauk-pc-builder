@@ -12,7 +12,6 @@ import {
   CAMERA_POSES,
   PART_BY_ID,
   PARTS,
-  SCROLL_VH_DESKTOP,
   STAGED_PARTS,
   STAGES,
   STAGING_X,
@@ -239,8 +238,7 @@ export function CinematicExperience() {
   return (
     <div
       ref={containerRef}
-      style={{ height: `${SCROLL_VH_DESKTOP}vh` }}
-      className="relative"
+      className="cinematic-scroll relative"
       data-cinematic-root
     >
       {/* CSS sticky rather than ScrollTrigger pin: no pin-spacer layout, better
@@ -264,7 +262,7 @@ export function CinematicExperience() {
 
         <div data-hero className="pointer-events-none absolute inset-0 z-10 flex items-center">
           <div className="w-full px-4 sm:px-10 lg:px-16">
-            <h1 className="text-balance text-5xl font-semibold leading-[1.02] tracking-tight sm:text-6xl lg:text-7xl">
+            <h1 className="text-balance pb-2 text-5xl font-semibold leading-[1.12] tracking-tight sm:text-6xl lg:text-7xl">
               Engineered to perform.
             </h1>
             <p className="mt-5 max-w-md text-lg text-ink-muted">

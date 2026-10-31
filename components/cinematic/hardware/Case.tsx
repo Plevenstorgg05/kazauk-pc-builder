@@ -113,14 +113,23 @@ export function GlassPanel() {
       <mesh>
         <boxGeometry args={[0.03, H, D]} />
         <meshPhysicalMaterial
-          color="#9fc4e8"
+          /*
+            transmission already makes the panel see-through. Stacking
+            transparent + opacity on top of it multiplies the two and crushes
+            the interior into darkness - that was the bug.
+            thickness also tints by distance travelled through the glass, so
+            0.3 on a panel this size over-darkened it further.
+          */
+          color="#cfe3f5"
           metalness={0}
-          roughness={0.04}
-          transmission={0.86}
-          thickness={0.3}
-          ior={1.5}
-          transparent
-          opacity={0.42}
+          roughness={0.03}
+          transmission={0.97}
+          thickness={0.04}
+          ior={1.45}
+          attenuationColor="#dceaf8"
+          attenuationDistance={4}
+          clearcoat={0.6}
+          clearcoatRoughness={0.06}
         />
       </mesh>
       {/* Edge frame catches the rim light and gives the glass an outline */}
