@@ -1,0 +1,684 @@
+{
+  "meta": {
+    "purpose": "Demo data for an AM5 Build-Your-Own-PC prototype using real KazaUK parts and prices",
+    "captured": "2026-10-31",
+    "platform": "AMD AM5 / DDR5 only (plus 2 trap items to show rule failures)",
+    "states": [
+      "compatible",
+      "incompatible",
+      "needs_verification",
+      "insufficient_data",
+      "warning"
+    ],
+    "notes": [
+      "Prices are public KazaUK prices on the capture date. Many AM5 boards and GPUs were sold out - stock field kept as captured.",
+      "null means the spec is not published or not yet captured - the configurator must not treat null as a pass.",
+      "Board memory_slots left null: all kits here are 2 modules, which every ATX/mATX board supports."
+    ]
+  },
+  "parts": {
+    "cpu": [
+      {
+        "id": "cpu-r5-7600",
+        "name": "AMD Ryzen 5 7600 (Box, Wraith Stealth)",
+        "price_gbp": 175.95,
+        "stock": "unknown",
+        "url": "https://pcgamingcases.co.uk/products/pramd-7600",
+        "sku": "100-100001015BOX",
+        "socket": "AM5",
+        "memory_type": "DDR5",
+        "cores": 6,
+        "threads": 12,
+        "tdp_w": 65,
+        "has_igpu": true,
+        "cooler_included": true,
+        "source": "KazaUK product page (price, SKU, cores, TDP, cooler, iGPU)"
+      },
+      {
+        "id": "cpu-r7-7800x3d",
+        "name": "AMD Ryzen 7 7800X3D",
+        "price_gbp": 358.99,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/amd-ry7-7800x3d-a",
+        "sku": null,
+        "socket": "AM5",
+        "memory_type": "DDR5",
+        "cores": 8,
+        "threads": 16,
+        "tdp_w": 120,
+        "has_igpu": true,
+        "cooler_included": false,
+        "source": "KazaUK title: 'AM5 ... 8-Core, 120W ... Radeon Graphics, NO HEATSINK/FAN'"
+      },
+      {
+        "id": "cpu-r9-9900x",
+        "name": "AMD Ryzen 9 9900X",
+        "price_gbp": 460.5,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/amd-ry9-9900x",
+        "sku": "WH-AMD-RY9-9900X",
+        "socket": "AM5",
+        "memory_type": "DDR5",
+        "cores": 12,
+        "threads": 24,
+        "tdp_w": 120,
+        "has_igpu": true,
+        "cooler_included": false,
+        "source": "KazaUK product page"
+      }
+    ],
+    "motherboard": [
+      {
+        "id": "mb-tuf-b650-plus-wifi",
+        "name": "ASUS TUF GAMING B650-PLUS WIFI",
+        "price_gbp": 142.95,
+        "stock": "sold_out",
+        "url": "https://pcgamingcases.co.uk/products/west-90mb1bz0-m0eay0",
+        "socket": "AM5",
+        "chipset": "B650",
+        "form_factor": "ATX",
+        "memory_type": "DDR5",
+        "dimm_type": "DIMM",
+        "memory_slots": null,
+        "source": "KazaUK title (socket, chipset, form factor); AM5 = DDR5 only"
+      },
+      {
+        "id": "mb-tuf-b850-plus-wifi",
+        "name": "ASUS TUF GAMING B850-PLUS WIFI",
+        "price_gbp": 217.95,
+        "stock": "sold_out",
+        "url": "https://pcgamingcases.co.uk/products/west-90mb1j30-m0eay0",
+        "socket": "AM5",
+        "chipset": "B850",
+        "form_factor": "ATX",
+        "memory_type": "DDR5",
+        "dimm_type": "DIMM",
+        "memory_slots": null,
+        "source": "KazaUK title"
+      },
+      {
+        "id": "mb-b850m-max-gaming-wifi",
+        "name": "ASUS B850M MAX GAMING WIFI",
+        "price_gbp": 157.95,
+        "stock": "sold_out",
+        "url": "https://pcgamingcases.co.uk/products/west-90mb1ll0-m0eay0",
+        "socket": "AM5",
+        "chipset": "B850",
+        "form_factor": "mATX",
+        "memory_type": "DDR5",
+        "dimm_type": "DIMM",
+        "memory_slots": null,
+        "source": "KazaUK title"
+      },
+      {
+        "id": "mb-x870-max-gaming-wifi7-w",
+        "name": "ASUS X870 MAX GAMING WIFI7 W",
+        "price_gbp": 237.95,
+        "stock": "sold_out",
+        "url": "https://pcgamingcases.co.uk/products/west-90mb1lz0-m0eay0",
+        "socket": "AM5",
+        "chipset": "X870",
+        "form_factor": "ATX",
+        "memory_type": "DDR5",
+        "dimm_type": "DIMM",
+        "memory_slots": null,
+        "source": "KazaUK title"
+      },
+      {
+        "id": "mb-asrock-b450m-hdv",
+        "name": "ASRock B450M-HDV R4.0 (AM4) — TRAP ITEM",
+        "price_gbp": 48.5,
+        "stock": "sold_out",
+        "url": "https://pcgamingcases.co.uk/products/asrock-b450m-hdv-r4-0-socket-am4-amd-promontory-b450-ddr4-sata3-usb3-1-m-2-a-gbe-microatx-motherboard",
+        "socket": "AM4",
+        "chipset": "B450",
+        "form_factor": "mATX",
+        "memory_type": "DDR4",
+        "dimm_type": "DIMM",
+        "memory_slots": null,
+        "source": "KazaUK title",
+        "demo_note": "Wrong socket + wrong RAM generation for every AM5 CPU/DDR5 kit here"
+      }
+    ],
+    "memory": [
+      {
+        "id": "ram-patriot-venom-32-6000",
+        "name": "Patriot Viper Venom 32GB (2x16GB) DDR5-6000 PVV532G600C30K",
+        "price_gbp": 515.95,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/sdpat-pvv532g30k",
+        "type": "DDR5",
+        "dimm_type": "DIMM",
+        "capacity_gb": 32,
+        "modules": 2,
+        "speed_mts": 6000,
+        "source": "KazaUK title"
+      },
+      {
+        "id": "ram-fury-beast-32-5600-w",
+        "name": "Kingston FURY Beast 32GB (2x16GB) DDR5-5600 CL36 White RGB EXPO",
+        "price_gbp": 549.95,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/sdkin-kf55636bw2",
+        "type": "DDR5",
+        "dimm_type": "DIMM",
+        "capacity_gb": 32,
+        "modules": 2,
+        "speed_mts": 5600,
+        "source": "KazaUK title"
+      },
+      {
+        "id": "ram-fury-beast-64-6000",
+        "name": "Kingston FURY Beast 64GB (2x32GB) DDR5-6000 CL36 Black EXPO",
+        "price_gbp": 1123.95,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/sdkin-kf560c64gb",
+        "type": "DDR5",
+        "dimm_type": "DIMM",
+        "capacity_gb": 64,
+        "modules": 2,
+        "speed_mts": 6000,
+        "source": "KazaUK title"
+      },
+      {
+        "id": "ram-kvr-sodimm-32-5600",
+        "name": "Kingston ValueRAM 32GB DDR5-5600 SO-DIMM — TRAP ITEM",
+        "price_gbp": 458.95,
+        "stock": "sold_out",
+        "url": "https://pcgamingcases.co.uk/products/sdkin-kvr56s46bd",
+        "type": "DDR5",
+        "dimm_type": "SO-DIMM",
+        "capacity_gb": 32,
+        "modules": 1,
+        "speed_mts": 5600,
+        "source": "KazaUK title ('262-pin SO-DIMM')",
+        "demo_note": "Laptop memory listed in KazaUK's desktop DDR5 collection - must be blocked"
+      }
+    ],
+    "gpu": [
+      {
+        "id": "gpu-msi-5060-ventus-2x-oc",
+        "name": "MSI GeForce RTX 5060 8G VENTUS 2X OC",
+        "price_gbp": 399.95,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/msi-geforce-rtx-5060-ventus-2x-oc-8gb-gddr7-pci-express-5-0-2535mhz-28000mhz",
+        "chipset": "RTX 5060",
+        "length_mm": 197,
+        "height_mm": 120,
+        "thickness_mm": 41,
+        "board_power_w": 145,
+        "recommended_psu_w": 550,
+        "power_connectors": [
+          "8-pin PCIe x1"
+        ],
+        "source": "Price: KazaUK. Specs: MSI spec (model G5060-8V2C) as published by retailers"
+      },
+      {
+        "id": "gpu-gb-5070ti-gaming-oc",
+        "name": "GIGABYTE GeForce RTX 5070 Ti GAMING OC 16G",
+        "price_gbp": 1179.95,
+        "stock": "sold_out",
+        "url": "https://pcgamingcases.co.uk/products/grgig-n5070tgoc",
+        "mpn": "GV-N507TGAMING OC-16GD",
+        "chipset": "RTX 5070 Ti",
+        "length_mm": 342,
+        "height_mm": 142,
+        "thickness_mm": 70,
+        "board_power_w": 300,
+        "recommended_psu_w": 750,
+        "power_connectors": [
+          "16-pin 12V-2x6 x1 (adapter to 3x 8-pin included)"
+        ],
+        "source": "Price: KazaUK. Card size, PSU, connector: gigabyte.com spec page. Board power 300W: NVIDIA reference figure (verify)"
+      },
+      {
+        "id": "gpu-gb-5080-gaming-oc",
+        "name": "GIGABYTE GeForce RTX 5080 GAMING OC 16G",
+        "price_gbp": 1632.95,
+        "stock": "sold_out",
+        "url": "https://pcgamingcases.co.uk/products/grgig-n5080goc",
+        "mpn": "GV-N5080GAMING OC-16GD",
+        "chipset": "RTX 5080",
+        "length_mm": 340,
+        "height_mm": 140,
+        "thickness_mm": 70,
+        "board_power_w": 360,
+        "recommended_psu_w": 850,
+        "power_connectors": [
+          "16-pin 12V-2x6 x1 (adapter to 3x 8-pin included)"
+        ],
+        "source": "Price: KazaUK. Card size L=340 W=140 H=70, 850W, 16-pin: gigabyte.com. Board power 360W: NVIDIA reference figure (verify)"
+      }
+    ],
+    "cooler": [
+      {
+        "id": "cool-wraith-stealth-boxed",
+        "name": "AMD Wraith Stealth (boxed with Ryzen 5 7600)",
+        "price_gbp": 0,
+        "stock": "n/a",
+        "url": null,
+        "type": "air",
+        "sockets": [
+          "AM5"
+        ],
+        "height_mm": null,
+        "radiator_mm": null,
+        "only_with_cpu": "cpu-r5-7600",
+        "source": "Included per KazaUK Ryzen 5 7600 page"
+      },
+      {
+        "id": "cool-deepcool-le240-v2",
+        "name": "DeepCool LE240 V2 240mm AIO",
+        "price_gbp": 58.95,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/fadee-le240",
+        "type": "aio",
+        "sockets": null,
+        "radiator_mm": 240,
+        "radiator_thickness_mm": null,
+        "source": "KazaUK title says only 'Intel & AMD Sockets'",
+        "demo_note": "Socket list not stated -> should show 'insufficient data' until checked against DeepCool spec"
+      },
+      {
+        "id": "cool-deepcool-lm360",
+        "name": "DeepCool LM360 360mm AIO with 2.4\" display",
+        "price_gbp": 75.95,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/fadee-lm360",
+        "type": "aio",
+        "sockets": [
+          "LGA1851",
+          "LGA1700",
+          "AM5"
+        ],
+        "radiator_mm": 360,
+        "radiator_thickness_mm": null,
+        "source": "KazaUK title"
+      },
+      {
+        "id": "cool-deepcool-spartacus-360",
+        "name": "DeepCool Spartacus 360 AIO with 3.4\" LCD",
+        "price_gbp": 137.95,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/fadee-spt360",
+        "type": "aio",
+        "sockets": [
+          "LGA1851",
+          "LGA1700",
+          "AM5",
+          "AM4"
+        ],
+        "radiator_mm": 360,
+        "radiator_thickness_mm": null,
+        "source": "KazaUK title"
+      }
+    ],
+    "psu": [
+      {
+        "id": "psu-tuf-650b",
+        "name": "ASUS TUF-GAMING-650B 650W",
+        "price_gbp": 75.95,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/west-90ye00d1-b0na00",
+        "wattage": 650,
+        "form_factor": "ATX",
+        "connectors": null,
+        "source": "KazaUK title"
+      },
+      {
+        "id": "psu-tuf-750g-evo",
+        "name": "ASUS TUF-GAMING-750G-EVO 750W",
+        "price_gbp": 109.95,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/west-90ye00sb-b0na00",
+        "wattage": 750,
+        "form_factor": "ATX",
+        "connectors": null,
+        "source": "KazaUK title"
+      },
+      {
+        "id": "psu-corsair-rm850e",
+        "name": "Corsair RM850e 850W",
+        "price_gbp": 119.95,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/west-cp-9020258-uk",
+        "wattage": 850,
+        "form_factor": "ATX",
+        "connectors": null,
+        "source": "KazaUK title"
+      },
+      {
+        "id": "psu-tuf-850g-evo",
+        "name": "ASUS TUF-GAMING-850G-EVO 850W",
+        "price_gbp": 119.95,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/west-90ye00sa-b0na00",
+        "wattage": 850,
+        "form_factor": "ATX",
+        "connectors": null,
+        "source": "KazaUK title"
+      },
+      {
+        "id": "psu-rog-thor-1000p3",
+        "name": "ASUS ROG THOR 1000P3 1000W",
+        "price_gbp": 332.95,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/west-90ye00v8-b0na00",
+        "wattage": 1000,
+        "form_factor": "ATX",
+        "connectors": null,
+        "source": "KazaUK title"
+      }
+    ],
+    "case": [
+      {
+        "id": "case-ionz-kz-z-v2",
+        "name": "IONZ KZ-Z Dual Dynamic Advanced V2",
+        "price_gbp": 54.95,
+        "price_source": "eBay item 155619526338 (not on Shopify page 1)",
+        "stock": "listed",
+        "url": "https://ionz.co.uk/product/kz-z-v2/",
+        "motherboard_support": [
+          "ATX",
+          "mATX",
+          "ITX"
+        ],
+        "gpu_max_mm": 410,
+        "cooler_max_mm": 160,
+        "radiators": [
+          {
+            "position": "top",
+            "max_mm": 360
+          },
+          {
+            "position": "side (motherboard)",
+            "max_mm": 280
+          }
+        ],
+        "dimensions_mm": "420 x 285 x 380",
+        "source": "ionz.co.uk official spec list"
+      },
+      {
+        "id": "case-ionz-kz-ze",
+        "name": "IONZ KZ-ZE (White)",
+        "price_gbp": 68.0,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/ionz-kz-ze-w-pc-gaming-case-atx-mid-tower-dual-chamber-dynamic-extended-series-tempered-glass-4-x-argb-pwm-fans-included-white",
+        "motherboard_support": [
+          "ATX"
+        ],
+        "gpu_max_mm": 390,
+        "cooler_max_mm": 168,
+        "radiators": [
+          {
+            "position": "unspecified",
+            "sizes_mm": [
+              240,
+              280,
+              360
+            ]
+          }
+        ],
+        "dimensions_mm": "422 x 300 x 400",
+        "source": "Price: KazaUK. Specs: ionz.co.uk (only ATX listed - mATX not confirmed)"
+      },
+      {
+        "id": "case-ionz-kz-900-v2",
+        "name": "IONZ KZ-900 V2 (Black)",
+        "price_gbp": 49.0,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/ionz-kz-900-pc-gaming-case-v2",
+        "motherboard_support": [
+          "mATX",
+          "ITX"
+        ],
+        "gpu_max_mm": 330,
+        "cooler_max_mm": 160,
+        "radiators": null,
+        "dimensions_mm": "339 x 276 x 330",
+        "source": "Price: KazaUK (V2). Specs: ionz.co.uk 'KZ 900' page (no version stated - confirm V2 is the same)"
+      },
+      {
+        "id": "case-ionz-flow-matx",
+        "name": "IONZ Flow (mATX)",
+        "price_gbp": 69.95,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/ionz-flow-pc-gaming-case-tempered-glass-mini-tower-dual-dynamic-compact-matx-front-i-o-type-c-includes-3-pwm-argb-fans",
+        "motherboard_support": [
+          "mATX",
+          "ITX"
+        ],
+        "gpu_max_mm": null,
+        "cooler_max_mm": 165,
+        "radiators": [
+          {
+            "position": "side",
+            "max_mm": null
+          },
+          {
+            "position": "top",
+            "max_mm": null
+          }
+        ],
+        "dimensions_mm": "377 x 280 x 453",
+        "source": "Price: KazaUK. Specs: ionz.co.uk (GPU length and radiator sizes not published)"
+      },
+      {
+        "id": "case-ionz-ge336f-v2",
+        "name": "IONZ GE336F V2 (Black)",
+        "price_gbp": 49.0,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/ionz-ge336f-v2-xl-pc-gaming-case-tempered-glass-mid-tower-airflow-front-eatx-top-i-o-type-c-includes-4-argb-and-pwm-fans-black",
+        "motherboard_support": [
+          "ATX",
+          "ITX"
+        ],
+        "gpu_max_mm": null,
+        "cooler_max_mm": 165,
+        "radiators": [
+          {
+            "position": "front",
+            "max_mm": null
+          },
+          {
+            "position": "top",
+            "max_mm": null
+          }
+        ],
+        "dimensions_mm": "465 x 218 x 461",
+        "source": "Price: KazaUK. Specs: ionz.co.uk (lists ATX/ITX only; Shopify title claims EATX)"
+      },
+      {
+        "id": "case-ionz-apex-vision-w",
+        "name": "IONZ APEX Vision ATX (White)",
+        "price_gbp": 139.0,
+        "stock": "listed",
+        "url": "https://pcgamingcases.co.uk/products/ionz-apex-vision-pc-gaming-case-atx-mid-tower-dual-chamber-with-4-argb-pwm-fans-lcd-screen-white",
+        "motherboard_support": [
+          "ATX",
+          "mATX",
+          "ITX"
+        ],
+        "gpu_max_mm": null,
+        "gpu_max_mm_conflict": [
+          380,
+          410
+        ],
+        "cooler_max_mm": null,
+        "radiators": [
+          {
+            "position": "top",
+            "max_mm": 360
+          }
+        ],
+        "dimensions_mm": null,
+        "source": "Price: KazaUK. Official: ATX/mATX/ITX, top rad 360. GPU length conflicts: 410 (Amazon) vs 380 (review)",
+        "demo_note": "Shows the 'needs verification' state"
+      }
+    ]
+  },
+  "rules": [
+    {
+      "id": "socket",
+      "check": "cpu.socket == motherboard.socket",
+      "fail": "incompatible"
+    },
+    {
+      "id": "memory_type",
+      "check": "memory.type == motherboard.memory_type",
+      "fail": "incompatible"
+    },
+    {
+      "id": "dimm_type",
+      "check": "memory.dimm_type == motherboard.dimm_type (desktop = DIMM)",
+      "fail": "incompatible"
+    },
+    {
+      "id": "board_form_factor",
+      "check": "motherboard.form_factor in case.motherboard_support",
+      "fail": "incompatible"
+    },
+    {
+      "id": "gpu_length",
+      "check": "gpu.length_mm <= case.gpu_max_mm",
+      "fail": "incompatible",
+      "if_missing": "insufficient_data",
+      "if_conflict": "needs_verification (use the lowest conflicting value to be safe)"
+    },
+    {
+      "id": "cooler_required",
+      "check": "cpu.cooler_included OR a cooler is selected",
+      "fail": "incompatible (missing part)"
+    },
+    {
+      "id": "boxed_cooler",
+      "check": "cooler.only_with_cpu == cpu.id",
+      "fail": "incompatible"
+    },
+    {
+      "id": "cooler_socket",
+      "check": "cpu.socket in cooler.sockets",
+      "fail": "incompatible",
+      "if_missing": "insufficient_data"
+    },
+    {
+      "id": "radiator_fit",
+      "check": "cooler.radiator_mm <= max of case.radiators[].max_mm",
+      "fail": "incompatible",
+      "if_missing": "insufficient_data"
+    },
+    {
+      "id": "psu_wattage",
+      "check": "psu.wattage >= gpu.recommended_psu_w",
+      "fail": "warning (below manufacturer recommendation)"
+    },
+    {
+      "id": "psu_headroom",
+      "check": "(cpu.tdp_w + gpu.board_power_w + 100) * 1.3 <= psu.wattage",
+      "fail": "warning",
+      "note": "100W for the rest of the system and 1.3x headroom are placeholder values - the owner should set them"
+    },
+    {
+      "id": "gpu_connectors",
+      "check": "psu.connectors supply gpu.power_connectors",
+      "if_missing": "insufficient_data",
+      "note": "PSU connector counts not captured yet - this will show amber for every build until filled in"
+    }
+  ],
+  "demo_scenarios": [
+    {
+      "name": "Happy path",
+      "pick": [
+        "cpu-r7-7800x3d",
+        "mb-tuf-b650-plus-wifi",
+        "ram-patriot-venom-32-6000",
+        "gpu-gb-5070ti-gaming-oc",
+        "case-ionz-kz-z-v2",
+        "cool-deepcool-lm360",
+        "psu-tuf-850g-evo"
+      ],
+      "expect": "All green except gpu_connectors (insufficient data)"
+    },
+    {
+      "name": "GPU too long",
+      "pick": [
+        "gpu-gb-5080-gaming-oc",
+        "case-ionz-kz-900-v2"
+      ],
+      "expect": "gpu_length incompatible (340mm > 330mm)"
+    },
+    {
+      "name": "ATX board in mATX case",
+      "pick": [
+        "mb-tuf-b650-plus-wifi",
+        "case-ionz-kz-900-v2"
+      ],
+      "expect": "board_form_factor incompatible"
+    },
+    {
+      "name": "mATX board in KZ-ZE",
+      "pick": [
+        "mb-b850m-max-gaming-wifi",
+        "case-ionz-kz-ze"
+      ],
+      "expect": "incompatible by the official list (ATX only) - realistic outcome is 'ask supplier', good talking point"
+    },
+    {
+      "name": "AM4 board with AM5 CPU",
+      "pick": [
+        "cpu-r5-7600",
+        "mb-asrock-b450m-hdv",
+        "ram-patriot-venom-32-6000"
+      ],
+      "expect": "socket + memory_type incompatible"
+    },
+    {
+      "name": "Laptop RAM",
+      "pick": [
+        "mb-tuf-b650-plus-wifi",
+        "ram-kvr-sodimm-32-5600"
+      ],
+      "expect": "dimm_type incompatible"
+    },
+    {
+      "name": "PSU below recommendation",
+      "pick": [
+        "gpu-gb-5080-gaming-oc",
+        "psu-tuf-750g-evo"
+      ],
+      "expect": "psu_wattage warning (750W < 850W)"
+    },
+    {
+      "name": "No cooler",
+      "pick": [
+        "cpu-r7-7800x3d"
+      ],
+      "expect": "cooler_required blocks checkout until a cooler is chosen"
+    },
+    {
+      "name": "Boxed cooler",
+      "pick": [
+        "cpu-r5-7600",
+        "cool-wraith-stealth-boxed"
+      ],
+      "expect": "pass; picking Wraith with any other CPU fails"
+    },
+    {
+      "name": "Unknown data",
+      "pick": [
+        "gpu-msi-5060-ventus-2x-oc",
+        "case-ionz-ge336f-v2",
+        "cool-deepcool-le240-v2"
+      ],
+      "expect": "gpu_length + cooler_socket insufficient data"
+    },
+    {
+      "name": "Conflicting data",
+      "pick": [
+        "gpu-gb-5080-gaming-oc",
+        "case-ionz-apex-vision-w"
+      ],
+      "expect": "needs_verification (340mm fits 380 and 410, but source conflict flagged)"
+    }
+  ]
+}
