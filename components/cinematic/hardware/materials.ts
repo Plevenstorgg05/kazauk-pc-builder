@@ -8,11 +8,11 @@
  */
 export const MAT = {
   /** Powder-coated steel chassis. */
-  chassis: { color: "#23262a", metalness: 0.62, roughness: 0.52 },
+  chassis: { color: "#121316", metalness: 0.62, roughness: 0.52 },
   /** Brushed aluminium trim and brackets. */
   aluminium: { color: "#9aa3ad", metalness: 0.88, roughness: 0.3 },
   /** Dark anodised aluminium — GPU shroud, cooler body. */
-  anodised: { color: "#2b2f34", metalness: 0.78, roughness: 0.36 },
+  anodised: { color: "#1a1c1f", metalness: 0.78, roughness: 0.36 },
   /** Bare heatsink fin stock. */
   fin: { color: "#b8c0c8", metalness: 0.92, roughness: 0.26 },
   /** Copper heatpipes. */
@@ -33,8 +33,12 @@ export const MAT = {
 
 /** RGB accents. Restrained — a few sources, not every surface (brief 3.1). */
 export const RGB = {
-  cool: "#3b82f6",
-  magenta: "#b04bd6",
-  cyan: "#22d3ee",
-  warm: "#f97316",
+  /** Deep violet - the dominant tone. */
+  core: "#8b5cf6",
+  /** Brighter magenta-violet for accents. */
+  bright: "#a855f7",
+  /** Cooler blue-violet, keeps the palette from going flat. */
+  cool: "#7c6cf0",
+  /** Deepest shade, used sparingly. */
+  deep: "#6d28d9",
 } as const;

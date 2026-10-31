@@ -2,7 +2,7 @@
 
 import { RoundedBox } from "@react-three/drei";
 import { Fan } from "./Fan";
-import { MAT, RGB } from "./materials";
+import { RGB } from "./materials";
 import { Mat } from "./Surface";
 
 /**
@@ -118,12 +118,12 @@ export function Cooler() {
       </RoundedBox>
       <mesh position={[-0.05, 0.615, 0.0]}>
         <boxGeometry args={[0.52, 0.012, 0.42]} />
-        <meshStandardMaterial color={RGB.cyan} emissive={RGB.cyan} emissiveIntensity={2.6} toneMapped={false} />
+        <meshStandardMaterial color={RGB.core} emissive={RGB.core} emissiveIntensity={2.6} toneMapped={false} />
       </mesh>
 
       {/* Fan clipped to the intake face */}
       <group position={[-0.05, 0.1, -0.4]}>
-        <Fan size={0.78} thickness={0.12} blades={9} speed={2.8} rgb={RGB.cyan} />
+        <Fan size={0.78} thickness={0.12} blades={9} speed={2.8} rgb={RGB.core} />
       </group>
     </group>
   );

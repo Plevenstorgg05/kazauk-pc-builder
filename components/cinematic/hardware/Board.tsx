@@ -1,7 +1,7 @@
 "use client";
 
 import { RoundedBox } from "@react-three/drei";
-import { MAT, RGB } from "./materials";
+import { RGB } from "./materials";
 import { Mat } from "./Surface";
 
 /**
@@ -91,7 +91,7 @@ export function Motherboard() {
       </RoundedBox>
       <mesh position={[face + 0.13, -1.05, 0.62]}>
         <boxGeometry args={[0.008, 0.2, 0.2]} />
-        <meshStandardMaterial color={RGB.magenta} emissive={RGB.magenta} emissiveIntensity={2.4} toneMapped={false} />
+        <meshStandardMaterial color={RGB.bright} emissive={RGB.bright} emissiveIntensity={2.4} toneMapped={false} />
       </mesh>
 
       {/* Surface detail: capacitors and headers */}
@@ -130,7 +130,7 @@ export function Cpu() {
 }
 
 /** Memory module: PCB, finned heat spreader, RGB diffuser along the top. */
-export function RamStick({ color = RGB.magenta }: { color?: string }) {
+export function RamStick({ color = RGB.bright }: { color?: string }) {
   return (
     <group>
       <mesh castShadow>

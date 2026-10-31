@@ -1,12 +1,13 @@
 "use client";
 
-import { useLayoutEffect, useRef } from "react";
+import { Suspense, useLayoutEffect, useRef } from "react";
 import type { Group } from "three";
 import { PARTS, type PartId, type PartSpec } from "@/lib/animation/choreography";
 import { Chassis, GlassPanel } from "./hardware/Case";
 import { Motherboard, Cpu, RamStick, Ssd } from "./hardware/Board";
 import { Gpu, Cooler, Psu } from "./hardware/Cards";
 import { RGB } from "./hardware/materials";
+import { SurfaceProvider } from "./hardware/Surface";
 
 export type PartRegistry = Map<PartId, Group>;
 
@@ -29,8 +30,8 @@ function PartGeometry({ id }: { id: PartId }) {
     case "MOTHERBOARD": return <Motherboard />;
     case "CPU": return <Cpu />;
     case "COOLER": return <Cooler />;
-    case "RAM_01": return <RamStick color={RGB.magenta} />;
-    case "RAM_02": return <RamStick color={RGB.magenta} />;
+    case "RAM_01": return <RamStick color={RGB.bright} />;
+    case "RAM_02": return <RamStick color={RGB.bright} />;
     case "GPU": return <Gpu />;
     case "SSD": return <Ssd />;
     case "PSU": return <Psu />;
@@ -69,10 +70,24 @@ export function PCModel({
   };
 
   return (
-    <group>
-      {PARTS.map((spec) => (
-        <Part key={spec.id} spec={spec} register={register} />
-      ))}
-    </group>
+    /*
+      SurfaceProvider loads the CC0 PBR texture sets once and shares them with
+      every material. useTexture suspends while they download, so the Suspense
+      boundary is mandatory - without it React throws inside the Canvas and the
+      whole scene fails to mount.
+
+      fallback={null} is deliberate: the surrounding page already shows a
+      loading state, and rendering untextured geometry for a few frames would
+      read as a visual pop.
+    */
+    <Suspense fallback={null}>
+      <SurfaceProvider>
+        <group>
+          {PARTS.map((spec) => (
+            <Part key={spec.id} spec={spec} register={register} />
+          ))}
+        </group>
+      </SurfaceProvider>
+    </Suspense>
   );
 }

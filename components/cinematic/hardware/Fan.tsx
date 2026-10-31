@@ -3,7 +3,6 @@
 import { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import type { Group } from "three";
-import { MAT } from "./materials";
 import { Mat } from "./Surface";
 
 /**

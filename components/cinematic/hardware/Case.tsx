@@ -2,7 +2,7 @@
 
 import { RoundedBox } from "@react-three/drei";
 import { Fan } from "./Fan";
-import { MAT, RGB } from "./materials";
+import { RGB } from "./materials";
 import { Mat } from "./Surface";
 
 /**
@@ -86,7 +86,7 @@ export function Chassis() {
       </group>
       {[-1.05, 0.0, 1.05].map((y, i) => (
         <group key={`fan${i}`} position={[0, y, D / 2 - 0.28]}>
-          <Fan size={0.92} blades={9} rgb={[RGB.cool, RGB.magenta, RGB.cyan][i]} speed={1.8 + i * 0.3} />
+          <Fan size={0.92} blades={9} rgb={[RGB.cool, RGB.bright, RGB.core][i]} speed={1.8 + i * 0.3} />
         </group>
       ))}
 
