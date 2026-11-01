@@ -5,59 +5,66 @@ import { formatPounds } from "@/lib/pricing/currency";
 import type { AnyPart, Category } from "@/lib/catalog/schema";
 import type { RuleResult, Status } from "@/lib/compatibility/types";
 import { CompatibilityIndicator } from "./CompatibilityIndicator";
+import { CategoryIcon } from "./CategoryIcon";
 
-/** Key specs worth surfacing per category, drawn only from the real data. */
-function specsFor(category: Category, part: AnyPart): string[] {
+/**
+ * Specs drawn ONLY from the real dataset. Nothing is inferred or invented,
+ * and a missing value simply does not appear.
+ */
+function specsFor(category: Category, part: AnyPart): { label: string; value: string }[] {
   const p = part as Record<string, unknown>;
-  const s: string[] = [];
-  const push = (v: unknown, fmt: (x: never) => string) => {
-    if (v !== null && v !== undefined) s.push(fmt(v as never));
+  const out: { label: string; value: string }[] = [];
+  const add = (label: string, v: unknown, fmt: (x: never) => string) => {
+    if (v !== null && v !== undefined) out.push({ label, value: fmt(v as never) });
   };
   switch (category) {
     case "cpu":
-      push(p.socket, (v: string) => v);
-      push(p.cores, (v: number) => `${v} cores`);
-      push(p.tdp_w, (v: number) => `${v} W`);
-      if (p.cooler_included) s.push("Cooler included");
+      add("Socket", p.socket, (v: string) => v);
+      add("Cores", p.cores, (v: number) => `${v}`);
+      add("TDP", p.tdp_w, (v: number) => `${v} W`);
       break;
     case "motherboard":
-      push(p.chipset, (v: string) => v);
-      push(p.form_factor, (v: string) => v);
-      push(p.memory_type, (v: string) => v);
+      add("Chipset", p.chipset, (v: string) => v);
+      add("Size", p.form_factor, (v: string) => v);
+      add("Memory", p.memory_type, (v: string) => v);
       break;
     case "memory":
-      push(p.capacity_gb, (v: number) => `${v} GB`);
-      push(p.speed_mts, (v: number) => `${v} MT/s`);
-      push(p.dimm_type, (v: string) => v);
+      add("Capacity", p.capacity_gb, (v: number) => `${v} GB`);
+      add("Speed", p.speed_mts, (v: number) => `${v} MT/s`);
+      add("Format", p.dimm_type, (v: string) => v);
       break;
     case "gpu":
-      push(p.chipset, (v: string) => v);
-      push(p.length_mm, (v: number) => `${v} mm long`);
-      push(p.recommended_psu_w, (v: number) => `${v} W recommended`);
+      add("GPU", p.chipset, (v: string) => v);
+      add("Length", p.length_mm, (v: number) => `${v} mm`);
+      add("PSU", p.recommended_psu_w, (v: number) => `${v} W`);
       break;
     case "cooler":
-      push(p.type, (v: string) => (v === "aio" ? "Liquid" : "Air"));
-      push(p.radiator_mm, (v: number) => `${v} mm radiator`);
+      add("Type", p.type, (v: string) => (v === "aio" ? "Liquid" : "Air"));
+      add("Radiator", p.radiator_mm, (v: number) => `${v} mm`);
+      add("Sockets", p.sockets, (v: string[]) => v.join(", "));
       break;
     case "psu":
-      push(p.wattage, (v: number) => `${v} W`);
-      push(p.form_factor, (v: string) => v);
+      add("Output", p.wattage, (v: number) => `${v} W`);
+      add("Format", p.form_factor, (v: string) => v);
       break;
     case "case":
-      push(p.motherboard_support, (v: string[]) => v.join(" / "));
-      push(p.gpu_max_mm, (v: number) => `${v} mm GPU`);
+      add("Supports", p.motherboard_support, (v: string[]) => v.join(" / "));
+      add("Max GPU", p.gpu_max_mm, (v: number) => `${v} mm`);
+      add("Max cooler", p.cooler_max_mm, (v: number) => `${v} mm`);
       break;
   }
-  return s;
+  return out;
 }
 
+const STOCK_TONE: Record<string, string> = {
+  listed: "text-ink-muted",
+  sold_out: "text-status-caution",
+  unknown: "text-ink-faint",
+  "n/a": "text-ink-faint",
+};
+
 export function ProductCard({
-  part,
-  category,
-  selected,
-  status,
-  reasons,
-  onSelect,
+  part, category, selected, status, reasons, onSelect,
 }: {
   part: AnyPart;
   category: Category;
@@ -68,70 +75,89 @@ export function ProductCard({
 }) {
   const blocked = status === "incompatible";
   const specs = specsFor(category, part);
+  const included = part.price_gbp === 0;
 
   return (
-    <div
-      className={`rounded-xl border p-4 transition-colors ${
-        selected ? "border-accent bg-accent/5" : "border-line bg-surface hover:border-graphite"
+    <article
+      className={`surface-card group relative flex flex-col rounded-xl p-5 transition-all duration-200 ${
+        selected ? "is-selected" : "hover:-translate-y-0.5"
       }`}
     >
-      <div className="flex items-start justify-between gap-3">
-        <div className="min-w-0">
-          <h3 className="text-sm font-medium leading-snug text-ink">{part.name}</h3>
-          <p className="mt-1 font-mono text-[11px] text-ink-faint">
-            {STOCK_LABELS[part.stock] ?? part.stock}
-          </p>
-        </div>
-        <p className="shrink-0 font-mono text-sm text-ink">{formatPounds(part.price_gbp)}</p>
+      {selected ? (
+        <span className="absolute right-4 top-4 flex h-6 w-6 items-center justify-center rounded-full bg-accent text-void">
+          <svg width="13" height="13" viewBox="0 0 16 16" aria-hidden>
+            <path d="M2.5 8.5l4 4 7-8.5" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+          <span className="sr-only">Selected</span>
+        </span>
+      ) : null}
+
+      {/*
+        No product photography exists in the dataset, and using unrelated stock
+        images would misrepresent specific hardware. A neutral category mark is
+        honest and keeps the grid visually even.
+      */}
+      <div className="mb-4 flex h-20 items-center justify-center rounded-lg border border-line/70 bg-base/60 text-ink-faint transition-colors group-hover:text-accent-bright">
+        <CategoryIcon category={category} className="h-8 w-8" />
       </div>
 
+      <h3 className="pr-7 text-sm font-medium leading-snug text-ink">{part.name}</h3>
+
+      <p className={`mt-1.5 font-mono text-[11px] ${STOCK_TONE[part.stock] ?? "text-ink-faint"}`}>
+        {STOCK_LABELS[part.stock] ?? part.stock}
+      </p>
+
       {specs.length > 0 ? (
-        <ul className="mt-3 flex flex-wrap gap-1.5">
+        <dl className="mt-4 grid grid-cols-[auto_1fr] gap-x-3 gap-y-1.5 border-t border-line/60 pt-3.5">
           {specs.map((s) => (
-            <li key={s} className="rounded border border-line/80 px-2 py-0.5 text-[11px] text-ink-muted">
-              {s}
-            </li>
+            <div key={s.label} className="contents">
+              <dt className="font-mono text-[10px] uppercase tracking-wider text-ink-faint">{s.label}</dt>
+              <dd className="truncate text-right text-[11px] text-ink-muted">{s.value}</dd>
+            </div>
           ))}
-        </ul>
+        </dl>
       ) : null}
 
       {status && status !== "compatible" ? (
-        <div className="mt-3 space-y-2">
+        <div className="mt-4 space-y-2 rounded-lg border border-line/60 bg-base/50 p-3">
           <CompatibilityIndicator status={status} />
-          {reasons.slice(0, 2).map((r) => (
-            <p key={r.ruleId} className="text-xs leading-relaxed text-ink-muted">
-              {r.message}
-            </p>
+          {reasons.slice(0, 1).map((r) => (
+            <p key={r.ruleId} className="text-[11px] leading-relaxed text-ink-muted">{r.message}</p>
           ))}
         </div>
       ) : null}
 
-      <div className="mt-4 flex items-center gap-3">
+      <div className="mt-auto flex items-end justify-between gap-3 pt-5">
+        <div>
+          <p className="font-mono text-lg leading-none text-ink">
+            {included ? "Included" : formatPounds(part.price_gbp)}
+          </p>
+          {part.url ? (
+            <a
+              href={part.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-1.5 inline-block text-[10px] text-ink-faint underline-offset-2 hover:text-ink-muted hover:underline"
+            >
+              Source listing
+            </a>
+          ) : null}
+        </div>
         <button
           type="button"
           onClick={onSelect}
           aria-pressed={selected}
-          className={`min-h-9 rounded-md px-4 text-xs font-medium transition-colors ${
+          className={`min-h-10 shrink-0 rounded-lg px-4 text-xs font-medium transition-colors ${
             selected
-              ? "bg-accent text-void"
+              ? "bg-accent text-void hover:bg-accent-bright"
               : blocked
                 ? "border border-status-fail/50 text-status-fail hover:bg-status-fail/10"
-                : "border border-line text-ink hover:border-graphite hover:bg-raised"
+                : "border border-line-strong text-ink hover:border-accent/60 hover:bg-accent/10"
           }`}
         >
           {selected ? "Selected" : blocked ? "Select anyway" : "Select"}
         </button>
-        {part.url ? (
-          <a
-            href={part.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs text-ink-faint underline-offset-2 hover:text-ink-muted hover:underline"
-          >
-            Source listing
-          </a>
-        ) : null}
       </div>
-    </div>
+    </article>
   );
 }

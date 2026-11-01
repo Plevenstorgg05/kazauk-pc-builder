@@ -7,29 +7,30 @@
   so nothing here claims to be official brand colour. Pending approval.
 */
 @theme {
-  /* Surfaces — near-black through charcoal/graphite */
+  /* Surfaces — layered, never flat. Each step is a real elevation. */
   --color-void: #06040f;
-  --color-surface: #111315;
-  --color-raised: #181b1e;
-  --color-line: #26292d;
-  --color-graphite: #3a3f45;
+  --color-base: #0a0717;
+  --color-surface: #100c20;
+  --color-raised: #16122a;
+  --color-elevated: #1d1835;
+  --color-line: #262040;
+  --color-line-strong: #332b52;
+  --color-graphite: #413a63;
 
   /* Type */
-  --color-ink: #f4f6f7;
-  --color-ink-muted: #9aa2a9;
-  --color-ink-faint: #6b7279;
+  --color-ink: #f5f3fb;
+  --color-ink-muted: #a9a3c4;
+  --color-ink-faint: #756e96;
 
-  /* Single restrained accent — cool steel, not gaming neon */
+  /* Electric violet — used sparingly, for the single most important thing. */
   --color-accent: #8b5cf6;
+  --color-accent-bright: #a78bfa;
+  --color-accent-deep: #6d28d9;
 
-  /*
-    Compatibility status colours (brief 11.1).
-    needs_verification / insufficient_data / warning all render amber;
-    they are told apart by icon + text label, never by colour alone.
-  */
-  --color-status-ok: #3fb950;
-  --color-status-fail: #f85149;
-  --color-status-caution: #d29922;
+  /* Compatibility states. Three share amber, so icon + label always accompany. */
+  --color-status-ok: #34d399;
+  --color-status-fail: #fb7185;
+  --color-status-caution: #fbbf24;
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-mono-tech), ui-monospace, "SF Mono", monospace;
@@ -42,7 +43,7 @@
   }
 
   body {
-    background-color: var(--color-void);
+    background-color: var(--color-base);
     color: var(--color-ink);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -107,4 +108,55 @@
   /* No long pinned run for reduced-motion users. */
   .frame-scroll { height: auto; }
   .frame-scroll > div { position: static; height: auto; }
+}
+
+/* ---- Depth system -------------------------------------------------------
+   Ambient illumination rather than flat fills. A premium dark UI reads as
+   lit, not painted: surfaces catch a little light from above. */
+.surface-card {
+  background:
+    linear-gradient(180deg, rgb(255 255 255 / 0.035) 0%, rgb(255 255 255 / 0) 42%),
+    var(--color-surface);
+  border: 1px solid var(--color-line);
+  box-shadow: 0 1px 0 0 rgb(255 255 255 / 0.04) inset, 0 12px 32px -18px rgb(0 0 0 / 0.9);
+}
+.surface-raised {
+  background:
+    linear-gradient(180deg, rgb(255 255 255 / 0.05) 0%, rgb(255 255 255 / 0) 46%),
+    var(--color-raised);
+  border: 1px solid var(--color-line);
+  box-shadow: 0 1px 0 0 rgb(255 255 255 / 0.05) inset, 0 20px 48px -24px rgb(0 0 0 / 0.95);
+}
+.surface-card:hover { border-color: var(--color-line-strong); }
+
+/* Selected product: a violet rim plus an inner highlight, so the state is
+   legible without relying on hue alone. */
+.is-selected {
+  border-color: color-mix(in oklab, var(--color-accent) 55%, transparent);
+  box-shadow:
+    0 0 0 1px color-mix(in oklab, var(--color-accent) 35%, transparent),
+    0 1px 0 0 rgb(255 255 255 / 0.06) inset,
+    0 22px 52px -26px color-mix(in oklab, var(--color-accent) 50%, transparent);
+}
+
+/* Ambient violet wash behind the page content. */
+.ambient-violet { overflow: clip; }
+.ambient-violet::before {
+  content: "";
+  position: absolute;
+  inset: -20% -10% auto -10%;
+  height: 60vh;
+  background: radial-gradient(60% 50% at 50% 0%, rgb(109 40 217 / 0.22), transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: none; }
+}
+.animate-rise { animation: rise 0.42s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise { animation: none; }
 }

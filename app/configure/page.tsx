@@ -19,16 +19,22 @@ export default function ConfigurePage() {
   return (
     <>
       <Header />
-      <main id="main" className="pt-24">
-        <Container className="pb-2">
-          <h1 className="text-balance text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl">
-            Your build. Your rules.
-          </h1>
-          <p className="mt-4 max-w-xl text-lg text-ink-muted">
-            Choose your components. Every selection is checked against real published
-            specifications — including where those specifications are missing or disagree.
-          </p>
-        </Container>
+      <main id="main" className="relative pt-24">
+        <div className="ambient-violet relative">
+          <Container className="relative z-10 pb-10">
+            <p className="font-mono text-[11px] uppercase tracking-[0.25em] text-accent-bright">
+              Build your own
+            </p>
+            <h1 className="mt-3 text-balance pb-1 text-[clamp(2rem,5vw,3.5rem)] font-semibold leading-[1.06] tracking-tight">
+              Your machine. Your rules.
+            </h1>
+            <p className="mt-4 max-w-xl text-lg leading-relaxed text-ink-muted">
+              Every selection is checked against real published specifications — sockets,
+              clearances, power and physical fit. Where a specification is missing or sources
+              disagree, we say so rather than guessing.
+            </p>
+          </Container>
+        </div>
         <Configurator />
       </main>
       <Footer />

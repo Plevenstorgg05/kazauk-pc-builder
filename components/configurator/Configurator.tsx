@@ -1,182 +1,176 @@
 "use client";
 
 import { useState } from "react";
-import { CATEGORIES, CATEGORY_LABELS } from "@/lib/catalog/schema";
-import { partsIn, findPart } from "@/lib/catalog/normalize";
+import { CATEGORY_LABELS, CATEGORIES } from "@/lib/catalog/schema";
+import { partsIn } from "@/lib/catalog/normalize";
 import { evaluateCandidate } from "@/lib/compatibility/engine";
 import { formatPence } from "@/lib/pricing/currency";
 import { useBuildConfigurator } from "@/hooks/useBuildConfigurator";
 import { Container } from "@/components/ui/Container";
 import { ProductCard } from "./ProductCard";
 import { BuildSummary } from "./BuildSummary";
+import { BuildReview } from "./BuildReview";
 import { CompatibilityDetails } from "./CompatibilityDetails";
-import { CompatibilityIndicator } from "./CompatibilityIndicator";
+import { CategoryNav } from "./CategoryNav";
 
 export function Configurator() {
   const cfg = useBuildConfigurator();
   const [reviewing, setReviewing] = useState(false);
+  const [sheetOpen, setSheetOpen] = useState(false);
   const { evaluation, selection, active } = cfg;
-
   const parts = partsIn(active);
+  const unresolved = evaluation.results.filter((r) => r.status !== "compatible");
 
   if (reviewing) {
     return (
       <Container className="py-10">
-        <button
-          type="button"
-          onClick={() => setReviewing(false)}
-          className="mb-6 text-sm text-ink-muted hover:text-ink"
-        >
-          ← Back to configurator
-        </button>
-        <h1 className="text-3xl font-semibold tracking-tight">Build review</h1>
-        <p className="mt-2 max-w-xl text-ink-muted">
-          A demonstration summary. No order is placed and nothing is reserved.
-        </p>
-
-        <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_360px]">
-          <div className="space-y-6">
-            <section>
-              <h2 className="text-sm font-semibold uppercase tracking-wider text-ink-faint">
-                Components
-              </h2>
-              <ul className="mt-3 divide-y divide-line rounded-xl border border-line bg-surface">
-                {CATEGORIES.map((c) => {
-                  const part = selection[c] ? findPart(selection[c]!) : undefined;
-                  return (
-                    <li key={c} className="flex items-center justify-between gap-4 p-4">
-                      <div>
-                        <p className="text-[11px] uppercase tracking-wider text-ink-faint">
-                          {CATEGORY_LABELS[c]}
-                        </p>
-                        <p className="text-sm text-ink">{part?.name ?? "Not selected"}</p>
-                      </div>
-                      <p className="font-mono text-sm text-ink">
-                        {part ? formatPence(Math.round(part.price_gbp * 100)) : "—"}
-                      </p>
-                    </li>
-                  );
-                })}
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-sm font-semibold uppercase tracking-wider text-ink-faint">
-                All compatibility checks ({evaluation.results.length})
-              </h2>
-              <div className="mt-3 space-y-3">
-                {evaluation.results.map((r) => (
-                  <CompatibilityDetails key={r.ruleId} result={r} />
-                ))}
-              </div>
-            </section>
-          </div>
-
-          <div className="lg:sticky lg:top-24 lg:self-start">
-            <div className="rounded-xl border border-line bg-surface p-5">
-              <p className="text-sm text-ink-muted">Component total</p>
-              <p className="mt-1 font-mono text-3xl text-ink">
-                {formatPence(evaluation.totalPence)}
-              </p>
-              <p className="mt-3 text-[11px] leading-relaxed text-ink-faint">
-                Historical prices captured 31 October 2026. This is a technical demonstration,
-                not a live store, and no stock is reserved.
-              </p>
-            </div>
-          </div>
-        </div>
+        <BuildReview
+          selection={selection}
+          evaluation={evaluation}
+          onBack={() => setReviewing(false)}
+          onEdit={(c) => {
+            cfg.goto(c);
+            setReviewing(false);
+          }}
+        />
       </Container>
     );
   }
 
+  const summary = (
+    <BuildSummary
+      selection={selection}
+      evaluation={evaluation}
+      acknowledged={cfg.acknowledged}
+      onAcknowledge={cfg.acknowledge}
+      onGoto={(c) => {
+        cfg.goto(c);
+        setSheetOpen(false);
+      }}
+      onClear={cfg.clear}
+      onReview={() => {
+        setSheetOpen(false);
+        setReviewing(true);
+      }}
+    />
+  );
+
   return (
-    <Container className="py-10">
-      <div className="grid gap-8 lg:grid-cols-[200px_1fr_340px]">
-        {/* Category navigation */}
-        <nav aria-label="Component categories" className="lg:sticky lg:top-24 lg:self-start">
-          <ol className="flex gap-2 overflow-x-auto pb-2 lg:flex-col lg:overflow-visible lg:pb-0">
-            {CATEGORIES.map((c, i) => {
-              const chosen = Boolean(selection[c]);
-              const isActive = c === active;
-              return (
-                <li key={c} className="shrink-0 lg:shrink">
-                  <button
-                    type="button"
-                    onClick={() => cfg.goto(c)}
-                    aria-current={isActive ? "step" : undefined}
-                    className={`flex w-full min-h-11 items-center gap-2.5 rounded-md px-3 text-left text-sm transition-colors ${
-                      isActive ? "bg-raised text-ink" : "text-ink-muted hover:bg-raised/60 hover:text-ink"
-                    }`}
-                  >
-                    <span
-                      className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] font-mono ${
-                        chosen ? "bg-accent text-void" : "border border-line text-ink-faint"
-                      }`}
-                    >
-                      {chosen ? "✓" : i + 1}
-                    </span>
-                    <span className="whitespace-nowrap lg:whitespace-normal">{CATEGORY_LABELS[c]}</span>
-                  </button>
-                </li>
-              );
-            })}
-          </ol>
-        </nav>
-
-        {/* Product selection */}
-        <section aria-live="polite">
-          <div className="flex items-baseline justify-between gap-4">
-            <h2 className="text-xl font-semibold tracking-tight">{CATEGORY_LABELS[active]}</h2>
-            <p className="font-mono text-xs text-ink-faint">{parts.length} options</p>
+    <>
+      <Container className="pb-28 lg:pb-16">
+        <div className="grid min-w-0 grid-cols-[minmax(0,1fr)] gap-8 lg:grid-cols-[218px_minmax(0,1fr)] xl:grid-cols-[218px_minmax(0,1fr)_340px]">
+          {/* min-w-0 is load-bearing: without it this grid item will not shrink
+              below the rail's intrinsic width and the whole page overflows. */}
+          <div className="min-w-0 lg:sticky lg:top-24 lg:self-start">
+            <CategoryNav
+              selection={selection}
+              active={active}
+              evaluation={evaluation}
+              onGoto={cfg.goto}
+            />
           </div>
 
-          <div className="mt-5 grid gap-3 sm:grid-cols-2">
-            {parts.map((part) => {
-              const { status, reasons } = evaluateCandidate(selection, active, part.id);
-              return (
-                <ProductCard
-                  key={part.id}
-                  part={part}
-                  category={active}
-                  selected={selection[active] === part.id}
-                  status={status}
-                  reasons={reasons}
-                  onSelect={() => cfg.select(active, part.id)}
-                />
-              );
-            })}
-          </div>
+          <section aria-labelledby="category-heading" className="min-w-0">
+            <div className="flex flex-wrap items-baseline justify-between gap-3">
+              <h2 id="category-heading" className="text-2xl font-semibold tracking-tight">
+                {CATEGORY_LABELS[active]}
+              </h2>
+              <p className="font-mono text-[11px] text-ink-faint">
+                {parts.length} {parts.length === 1 ? "option" : "options"}
+              </p>
+            </div>
 
-          {evaluation.results.filter((r) => r.status !== "compatible").length > 0 ? (
-            <section className="mt-10">
-              <h3 className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-ink-faint">
-                Issues to review
-                {evaluation.aggregate ? <CompatibilityIndicator status={evaluation.aggregate} compact /> : null}
-              </h3>
-              <div className="mt-3 space-y-3">
-                {evaluation.results
-                  .filter((r) => r.status !== "compatible")
-                  .map((r) => (
+            <div
+              key={active}
+              className="animate-rise mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3"
+            >
+              {parts.map((part) => {
+                const { status, reasons } = evaluateCandidate(selection, active, part.id);
+                return (
+                  <ProductCard
+                    key={part.id}
+                    part={part}
+                    category={active}
+                    selected={selection[active] === part.id}
+                    status={status}
+                    reasons={reasons}
+                    onSelect={() => cfg.select(active, part.id)}
+                  />
+                );
+              })}
+            </div>
+
+            {unresolved.length > 0 ? (
+              <section className="mt-12" aria-live="polite">
+                <h3 className="font-mono text-[11px] uppercase tracking-[0.2em] text-ink-faint">
+                  Issues to review ({unresolved.length})
+                </h3>
+                <div className="mt-3 space-y-3">
+                  {unresolved.map((r) => (
                     <CompatibilityDetails key={r.ruleId} result={r} />
                   ))}
-              </div>
-            </section>
-          ) : null}
-        </section>
+                </div>
+              </section>
+            ) : null}
 
-        {/* Sticky summary */}
-        <div className="lg:sticky lg:top-24 lg:self-start">
-          <BuildSummary
-            selection={selection}
-            evaluation={evaluation}
-            acknowledged={cfg.acknowledged}
-            onAcknowledge={cfg.acknowledge}
-            onGoto={cfg.goto}
-            onClear={cfg.clear}
-            onReview={() => setReviewing(true)}
-          />
+            {/*
+              Summary placement by breakpoint, with exactly ONE copy live at a time:
+                < lg   bottom bar + sheet (below)
+                lg-xl  inline here, where a third column would be too cramped
+                >= xl  sticky right column
+              Rendering more than one produced duplicate landmarks and duplicate
+              form controls in the accessibility tree.
+            */}
+            <div className="mt-12 hidden lg:block xl:hidden">{summary}</div>
+          </section>
+
+          <div className="hidden xl:sticky xl:top-24 xl:block xl:self-start">{summary}</div>
+        </div>
+      </Container>
+
+      {/* Mobile: persistent total bar. Never covers content — the page reserves
+          pb-28 for it — and opens the full summary as a sheet. */}
+      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-base/95 backdrop-blur-md lg:hidden">
+        <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-3">
+          <div className="min-w-0 flex-1">
+            <p className="font-mono text-[10px] uppercase tracking-wider text-ink-faint">
+              {CATEGORIES.filter((c) => selection[c]).length}/7 selected
+            </p>
+            <p className="font-mono text-lg leading-tight text-ink">
+              {formatPence(evaluation.totalPence)}
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={() => setSheetOpen(true)}
+            className="min-h-11 rounded-lg border border-line-strong px-4 text-sm font-medium text-ink"
+          >
+            Your build
+          </button>
         </div>
       </div>
-    </Container>
+
+      {sheetOpen ? (
+        <div className="fixed inset-0 z-50 lg:hidden">
+          <button
+            type="button"
+            aria-label="Close build summary"
+            onClick={() => setSheetOpen(false)}
+            className="absolute inset-0 bg-void/80 backdrop-blur-sm"
+          />
+          <div className="animate-rise absolute inset-x-0 bottom-0 max-h-[88vh] overflow-y-auto rounded-t-2xl border-t border-line bg-base p-4">
+            <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-line-strong" aria-hidden />
+            {summary}
+            <button
+              type="button"
+              onClick={() => setSheetOpen(false)}
+              className="mt-3 min-h-11 w-full rounded-lg border border-line text-sm text-ink-muted"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      ) : null}
+    </>
   );
 }

@@ -91,7 +91,16 @@ export function evaluateCandidate(
 ): { status: Status | null; reasons: RuleResult[] } {
   const hypothetical: Selection = { ...selection, [category]: partId };
   const { results } = evaluateBuild(hypothetical, policy);
-  const relevant = results.filter((r) => r.partIds.includes(partId));
+  /*
+    cooler_required is excluded from per-card badging. It reports that the build
+    has no cooling yet, which is a COMPLETENESS problem, not a defect in the
+    processor you are looking at. Badging a perfectly good CPU "Not compatible"
+    because you have not picked a cooler yet is actively misleading — the build
+    summary already tracks missing selections (brief 11.2).
+  */
+  const relevant = results.filter(
+    (r) => r.partIds.includes(partId) && r.ruleId !== "cooler_required",
+  );
   if (relevant.length === 0) return { status: null, reasons: [] };
   const status = STATUS_ORDER.find((s) => relevant.some((r) => r.status === s)) ?? null;
   return { status, reasons: relevant.filter((r) => r.status !== "compatible") };
