@@ -16,7 +16,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IONZ — Engineered to Perform",
+  title: "KAZAUK — Engineered to Perform",
   description:
     "A technical demonstration: cinematic PC hardware presentation and an intelligent component compatibility configurator.",
 };

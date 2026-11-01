@@ -1,43 +1,56 @@
 import type { Metadata } from "next";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
-import { Container } from "@/components/ui/Container";
-import { Configurator } from "@/components/configurator/Configurator";
-
+import Link from "next/link";
+import { Builder } from "@/components/builder/Builder";
+import s from "@/components/builder/Builder.module.css";
 export const metadata: Metadata = {
-  title: "Build your PC — IONZ",
+  title: "Build your PC | KAZAUK",
   description:
-    "Choose components, check compatibility against real specifications, and review your build.",
+    "Start with your case. Configure core hardware, cooling, storage and peripherals with source-backed product information. Unrestricted demonstration selections; hardware compatibility is not guaranteed.",
 };
-
-/**
- * Server Component shell. Only the Configurator crosses the client boundary;
- * the catalogue is imported into the module graph and validated at build time,
- * so there is no API route for data that is already bundled (brief 13.5).
- */
 export default function ConfigurePage() {
   return (
-    <>
-      <Header />
-      <main id="main" className="relative pt-24">
-        <div className="ambient-violet relative">
-          <Container className="relative z-10 pb-10">
-            <p className="font-mono text-[11px] uppercase tracking-[0.25em] text-accent-bright">
-              Build your own
-            </p>
-            <h1 className="mt-3 text-balance pb-1 text-[clamp(2rem,5vw,3.5rem)] font-semibold leading-[1.06] tracking-tight">
-              Your machine. Your rules.
-            </h1>
-            <p className="mt-4 max-w-xl text-lg leading-relaxed text-ink-muted">
-              Every selection is checked against real published specifications — sockets,
-              clearances, power and physical fit. Where a specification is missing or sources
-              disagree, we say so rather than guessing.
-            </p>
-          </Container>
-        </div>
-        <Configurator />
+    <div className={s.root}>
+      <a className={s.skip} href="#main">
+        Skip to PC builder
+      </a>
+      <header className={s.header}>
+        <Link href="/" className={s.brand} aria-label="KAZAUK home">
+          KAZAUK
+        </Link>
+        <span className={s.headerRule} />
+        <Link href="/configure" className={s.headerLabel}>
+          PC BUILDER
+        </Link>
+        <nav aria-label="Primary">
+          <Link href="/#showroom">
+            Explore <span className={s.exploreName}>KAZAUK</span> ↗
+          </Link>
+          <span>Independent demonstration</span>
+        </nav>
+      </header>
+      <main id="main" className={s.main}>
+        <Builder />
       </main>
-      <Footer />
-    </>
+      <footer className={s.footer}>
+        <div>
+          <Link href="/" className={s.brand}>
+            KAZAUK
+          </Link>
+          <p>
+            Independent technical demonstration.
+            <br />
+            Not an official KAZAUK product or live store.
+          </p>
+        </div>
+        <p>
+          The original 30-product dataset is preserved. Additional products are
+          separately researched snapshots.
+          <br />
+          Prices and availability are not live. No order, payment or stock
+          reservation is available.
+        </p>
+        <Link href="/">Back to the experience ↗</Link>
+      </footer>
+    </div>
   );
 }

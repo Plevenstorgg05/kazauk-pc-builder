@@ -1,0 +1,87 @@
+[
+  {
+    "productId": "research-fans-spr-cf120-arcp12pwmpst-slim",
+    "status": "unresolved",
+    "images": [],
+    "sourcePage": "https://www.arctic.de/en/P12-Slim-PWM-PST/ACFAN00187A",
+    "permission": "User permission covers IONZ / PC Gaming Cases photos. No applicable ARCTIC or alternate retailer photo reuse permission was established.",
+    "verification": "ARCTIC identifies the exact black 120 mm slim PWM PST fan as ACFAN00187A. The old PC Gaming Cases product page and stored photo return 404; its current fan collection has no ARCTIC listing. Exact manufacturer and Scan product photos exist but their use in this independent demo is not established.",
+    "reason": "Exact photographs located, but no accessible photo within the confirmed permission scope. Use a clearly labelled fan illustration.",
+    "rightsSource": "https://www.arctic.de/en/about-arctic/press/",
+    "investigatedSources": [
+      "https://pcgamingcases.co.uk/products/cf120-arcp12pwmpst-slim",
+      "https://pcgamingcases.co.uk/collections/pc-case-fans",
+      "https://www.arctic.de/en/P12-Slim-PWM-PST/ACFAN00187A",
+      "https://www.arctic.de/media/2b/83/fd/1690274238/Spec_Sheet_P12_Slim_PWM_PST_EN.pdf",
+      "https://www.scan.co.uk/products/120mm-arctic-p12-slim-pwm-pst-7-blade-static-pressure-2100rpm-411cfm-fluid-dynamic-bearing-black-4-p",
+      "https://www.arctic.de/en/about-arctic/press/"
+    ],
+    "checked": "2026-11-01"
+  },
+  {
+    "productId": "research-fans-spr-cf140-arcp14co-pwm",
+    "status": "unresolved",
+    "images": [],
+    "sourcePage": "https://www.arctic.de/en/P14-PWM-PST-CO/ACFAN00126A",
+    "permission": "User permission covers IONZ / PC Gaming Cases photos. No applicable ARCTIC or alternate retailer photo reuse permission was established.",
+    "verification": "ARCTIC identifies the exact black 140 mm P14 PWM PST CO fan as ACFAN00126A with dual ball bearing. The old retailer page and stored photo return 404. Current PC Gaming Cases fan collection has no ARCTIC listing. Official and Scan exact-model pages were checked; the ordinary P14 ACFAN00125A was excluded.",
+    "reason": "Exact photographs located, but no accessible photo within the confirmed permission scope. Use a clearly labelled fan illustration.",
+    "rightsSource": "https://www.arctic.de/en/about-arctic/press/",
+    "investigatedSources": [
+      "https://pcgamingcases.co.uk/products/cf140-arcp14co-pwm",
+      "https://pcgamingcases.co.uk/collections/pc-case-fans",
+      "https://www.arctic.de/en/P14-PWM-PST-CO/ACFAN00126A",
+      "https://www.arctic.de/media/e6/cc/2f/1693306060/Spec_Sheet_P14_PWM_PST_CO_EN.pdf",
+      "https://www.scan.co.uk/products/140mm-arctic-p14-pwm-pst-continuous-operation-5-blade-static-fan-1700rpm-728cfm-fluid-dynamic-bearin",
+      "https://www.arctic.de/en/about-arctic/press/"
+    ],
+    "checked": "2026-11-01"
+  },
+  {
+    "productId": "research-hdd-wd60efpx",
+    "status": "unresolved",
+    "images": [],
+    "sourcePage": "https://www.westerndigital.com/products/internal-drives/wd-red-plus-sata-3-5-hdd?sku=WD60EFPX",
+    "permission": "User permission covers IONZ / PC Gaming Cases photos. Western Digital terms limit unapproved reuse to personal non-commercial use; no applicable commercial demo permission was established.",
+    "verification": "Official WD Red Plus page and Scan exact-model listing confirm WD60EFPX, 6 TB NAS HDD. PC Gaming Cases exact old HDD listing returns 404. Manufacturer and current retailer photographs were located, but reuse rights for this demo were not established. Other capacities were excluded.",
+    "reason": "Exact photographs located without applicable reuse permission. Use a clearly labelled hard drive illustration.",
+    "rightsSource": "https://www.westerndigital.com/legal/terms-of-use",
+    "investigatedSources": [
+      "https://pcgamingcases.co.uk/products/hdwes-wd60efpx",
+      "https://www.westerndigital.com/products/internal-drives/wd-red-plus-sata-3-5-hdd?sku=WD60EFPX",
+      "https://www.scan.co.uk/products/6tb-wd-red-plus-wd60efpx-nas-hard-drive-35-hdd-sata-iii-6gb-s-5400rpm-256mb-cache-ncq-oem",
+      "https://drivesolutions.com/wd60efpx-wd-red-plus-nas-hard-drive-122897.html",
+      "https://www.pc-canada.com/item/wd-red-plus-wd60efpx-6-tb-hard-drive/wd60efpx-singl",
+      "https://www.westerndigital.com/legal/terms-of-use"
+    ],
+    "checked": "2026-11-01"
+  },
+  {
+    "productId": "research-external_ssd-sxs1000-1000g",
+    "status": "verified",
+    "sourcePage": "https://www.kingstonloda.com/asset-management/2NGKT73YG3HL",
+    "images": [
+      {
+        "src": "/products/repair-external-ssd-kingston-xs1000-1tb.webp",
+        "alt": "Kingston XS1000 1 TB black external SSD retail packaging — exact SXS1000/1000G official marketing photograph",
+        "sourceUrl": "https://www.kingstonloda.com/asset-management/2NGKT73YG3HL",
+        "width": 758,
+        "height": 1200
+      }
+    ],
+    "permission": "Official public Kingston LoDA marketing asset: the LoDA FAQ makes public marketing materials available for anyone to find and download. The exact asset offered an unauthenticated Standard download of its original PNG; no restricted asset or account access was used. Kingston describes its marketing assets as materials for promoting its products.",
+    "verification": "Official public LoDA asset KG1OFJL is named ktc-xs1000-1000gb-pb-hr.png and explicitly tagged SXS1000/1000G, black, 1 TB. Downloaded the original 2400 by 1500 transparent PNG through its public Standard download control; trimmed transparent margins, resized within 1200 pixels and encoded WebP quality 88. Visually inspected the 1 TB label, XS1000 designation, black drive and Kingston retail packaging. The 2 TB asset and login-restricted Etail folder were excluded.",
+    "rightsSource": "https://lodasupport.kingston.com/faq",
+    "investigatedSources": [
+      "https://pcgamingcases.co.uk/products/hdkin-xs10001tb",
+      "https://www.kingston.com/en/external-ssd/xs1000-external-solid-state-drive?capacity=1tb",
+      "https://www.kingston.com/en/kingstonconnect",
+      "https://lodasupport.kingston.com/press-images/35/ssd",
+      "https://www.kingstonloda.com/asset-management/2NGKT71PAOF2",
+      "https://www.kingstonloda.com/asset-management/2NGKT73YG7XZ",
+      "https://www.kingstonloda.com/asset-management/2NGKT73YG3HL",
+      "https://lodasupport.kingston.com/faq"
+    ],
+    "checked": "2026-11-01"
+  }
+]

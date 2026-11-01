@@ -1,0 +1,2863 @@
+[
+  {
+    "id": "research-ssd-ionzg3-1tb-ssd",
+    "category": "ssd",
+    "name": "IONZ G3 1TB M.2 NVMe SSD",
+    "brand": "IONZ",
+    "model": "IONZG3-1TB-SSD",
+    "price": 44.16,
+    "stock": "sold_out",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/ionz-g3-1tb-m-2-nvme-ssd",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "capacity_0",
+        "label": "Capacity",
+        "value": "1 TB"
+      },
+      {
+        "key": "interface_1",
+        "label": "Interface",
+        "value": "PCIe 3.0 ×4 / NVMe"
+      },
+      {
+        "key": "form_factor_2",
+        "label": "Form factor",
+        "value": "M.2"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-ssd-ionzg3-1tb-ssd-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/image_1_-2.jpg?v=1748425840&width=1206",
+        "alt": "IONZ G3 1TB M.2 NVMe SSD — retailer product photograph",
+        "width": 420,
+        "height": 149
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-ssd-ssd-1tbadleg800p",
+    "category": "ssd",
+    "name": "ADATA ALEG-800-1000GCS internal solid state drive 1 TB M.2 PCI Express 4.0 NVMe 3D NAND",
+    "brand": "ADATA",
+    "model": "ssd-1tbadleg800p",
+    "price": 53.14,
+    "stock": "sold_out",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/ssd-1tbadleg800p",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "write_speed_0",
+        "label": "Write speed",
+        "value": "2200 MB/s"
+      },
+      {
+        "key": "read_speed_1",
+        "label": "Read speed",
+        "value": "3500 MB/s"
+      },
+      {
+        "key": "interface_2",
+        "label": "Interface",
+        "value": "PCI Express 4.0"
+      },
+      {
+        "key": "ssd_form_factor_3",
+        "label": "SSD form factor",
+        "value": "M.2"
+      },
+      {
+        "key": "ssd_capacity_4",
+        "label": "SSD capacity",
+        "value": "1 TB"
+      },
+      {
+        "key": "height_5",
+        "label": "Height",
+        "value": "2.65 mm"
+      },
+      {
+        "key": "depth_6",
+        "label": "Depth",
+        "value": "80 mm"
+      },
+      {
+        "key": "width_7",
+        "label": "Width",
+        "value": "22 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-ssd-ssd-1tbadleg800p-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/5452ec444d95f2b6c6ee724ffda608fd.jpg?v=1774134292&width=1206",
+        "alt": "ADATA ALEG-800-1000GCS internal solid state drive 1 TB M.2 PCI Express 4.0 NVMe 3D NAND — retailer product photograph",
+        "width": 783,
+        "height": 236
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-ssd-tm8fgm002t0c101",
+    "category": "ssd",
+    "name": "Team Group NV5000 2 TB M.2 PCI Express 4.0 NVMe 3D NAND",
+    "brand": "Team Group",
+    "model": "TM8FGM002T0C101",
+    "price": 281.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/hdtea-tm8fgm002t",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "pci_express_interface_data_lanes_0",
+        "label": "PCI Express interface data lanes",
+        "value": "x4"
+      },
+      {
+        "key": "write_speed_1",
+        "label": "Write speed",
+        "value": "3000 MB/s"
+      },
+      {
+        "key": "read_speed_2",
+        "label": "Read speed",
+        "value": "5000 MB/s"
+      },
+      {
+        "key": "m_2_ssd_size_3",
+        "label": "M.2 SSD size",
+        "value": "2280 (22 x 80 mm)"
+      },
+      {
+        "key": "interface_4",
+        "label": "Interface",
+        "value": "PCI Express 4.0"
+      },
+      {
+        "key": "ssd_form_factor_5",
+        "label": "SSD form factor",
+        "value": "M.2"
+      },
+      {
+        "key": "ssd_capacity_6",
+        "label": "SSD capacity",
+        "value": "2 TB"
+      },
+      {
+        "key": "height_7",
+        "label": "Height",
+        "value": "3.7 mm"
+      },
+      {
+        "key": "depth_8",
+        "label": "Depth",
+        "value": "80 mm"
+      },
+      {
+        "key": "width_9",
+        "label": "Width",
+        "value": "22 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-ssd-tm8fgm002t0c101-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/5d13c9dbc7cca57ec0b8e7bd57df97fe.jpg?v=1776186813&width=1206",
+        "alt": "Team Group NV5000 2 TB M.2 PCI Express 4.0 NVMe 3D NAND — retailer product photograph",
+        "width": 941,
+        "height": 280
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-ssd-tm8fgm001t0c101",
+    "category": "ssd",
+    "name": "Team Group NV5000 1 TB M.2 PCI Express 4.0 NVMe 3D NAND",
+    "brand": "Team Group",
+    "model": "TM8FGM001T0C101",
+    "price": 148.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/hdtea-tm8fgm001t",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "pci_express_interface_data_lanes_0",
+        "label": "PCI Express interface data lanes",
+        "value": "x4"
+      },
+      {
+        "key": "write_speed_1",
+        "label": "Write speed",
+        "value": "1900 MB/s"
+      },
+      {
+        "key": "read_speed_2",
+        "label": "Read speed",
+        "value": "4500 MB/s"
+      },
+      {
+        "key": "m_2_ssd_size_3",
+        "label": "M.2 SSD size",
+        "value": "2280 (22 x 80 mm)"
+      },
+      {
+        "key": "interface_4",
+        "label": "Interface",
+        "value": "PCI Express 4.0"
+      },
+      {
+        "key": "ssd_form_factor_5",
+        "label": "SSD form factor",
+        "value": "M.2"
+      },
+      {
+        "key": "ssd_capacity_6",
+        "label": "SSD capacity",
+        "value": "1 TB"
+      },
+      {
+        "key": "height_7",
+        "label": "Height",
+        "value": "3.7 mm"
+      },
+      {
+        "key": "depth_8",
+        "label": "Depth",
+        "value": "80 mm"
+      },
+      {
+        "key": "width_9",
+        "label": "Width",
+        "value": "22 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-ssd-tm8fgm001t0c101-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/89cdab50a1545ee52cb7e89fe55122c3.jpg?v=1776186807&width=1206",
+        "alt": "Team Group NV5000 1 TB M.2 PCI Express 4.0 NVMe 3D NAND — retailer product photograph",
+        "width": 941,
+        "height": 280
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-ssd-tm8fp6512g0c101",
+    "category": "ssd",
+    "name": "Team Group MP33 512 GB M.2 PCI Express 3.0 NVMe 3D NAND",
+    "brand": "Team Group",
+    "model": "TM8FP6512G0C101",
+    "price": 88.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/hdtea-tm8f512g0c",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "write_speed_0",
+        "label": "Write speed",
+        "value": "1400 MB/s"
+      },
+      {
+        "key": "read_speed_1",
+        "label": "Read speed",
+        "value": "1700 MB/s"
+      },
+      {
+        "key": "interface_2",
+        "label": "Interface",
+        "value": "PCI Express 3.0"
+      },
+      {
+        "key": "ssd_form_factor_3",
+        "label": "SSD form factor",
+        "value": "M.2"
+      },
+      {
+        "key": "ssd_capacity_4",
+        "label": "SSD capacity",
+        "value": "512 GB"
+      },
+      {
+        "key": "height_5",
+        "label": "Height",
+        "value": "3.8 mm"
+      },
+      {
+        "key": "depth_6",
+        "label": "Depth",
+        "value": "80 mm"
+      },
+      {
+        "key": "width_7",
+        "label": "Width",
+        "value": "22 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-ssd-tm8fp6512g0c101-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/e2308bb9639ab88f76b3aa81497408df_bc12555b-37e7-4352-b0f7-e3ed44e1bd86.jpg?v=1776186795&width=1206",
+        "alt": "Team Group MP33 512 GB M.2 PCI Express 3.0 NVMe 3D NAND — retailer product photograph",
+        "width": 620,
+        "height": 189
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-ssd-tm8fp6001t0c101",
+    "category": "ssd",
+    "name": "Team Group MP33 1 TB M.2 PCI Express 3.0 NVMe 3D NAND",
+    "brand": "Team Group",
+    "model": "TM8FP6001T0C101",
+    "price": 145.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/hdtea-tm8f1t0c10",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "write_speed_0",
+        "label": "Write speed",
+        "value": "1500 MB/s"
+      },
+      {
+        "key": "read_speed_1",
+        "label": "Read speed",
+        "value": "1800 MB/s"
+      },
+      {
+        "key": "interface_2",
+        "label": "Interface",
+        "value": "PCI Express 3.0"
+      },
+      {
+        "key": "ssd_form_factor_3",
+        "label": "SSD form factor",
+        "value": "M.2"
+      },
+      {
+        "key": "ssd_capacity_4",
+        "label": "SSD capacity",
+        "value": "1 TB"
+      },
+      {
+        "key": "height_5",
+        "label": "Height",
+        "value": "3.8 mm"
+      },
+      {
+        "key": "depth_6",
+        "label": "Depth",
+        "value": "80 mm"
+      },
+      {
+        "key": "width_7",
+        "label": "Width",
+        "value": "22 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-ssd-tm8fp6001t0c101-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/ce51dd0e0b5c68a792d5583ad54c25fa.jpg?v=1776186775&width=1206",
+        "alt": "Team Group MP33 1 TB M.2 PCI Express 3.0 NVMe 3D NAND — retailer product photograph",
+        "width": 623,
+        "height": 191
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-ssd-tm8ps7512g0c101",
+    "category": "ssd",
+    "name": "Team Group MS30 512 GB M.2 Serial ATA III",
+    "brand": "Team Group",
+    "model": "TM8PS7512G0C101",
+    "price": 80.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/hdtea-ms30m2-512",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "write_speed_0",
+        "label": "Write speed",
+        "value": "480 MB/s"
+      },
+      {
+        "key": "read_speed_1",
+        "label": "Read speed",
+        "value": "550 MB/s"
+      },
+      {
+        "key": "interface_2",
+        "label": "Interface",
+        "value": "Serial ATA III"
+      },
+      {
+        "key": "ssd_form_factor_3",
+        "label": "SSD form factor",
+        "value": "M.2"
+      },
+      {
+        "key": "ssd_capacity_4",
+        "label": "SSD capacity",
+        "value": "512 GB"
+      },
+      {
+        "key": "height_5",
+        "label": "Height",
+        "value": "3.5 mm"
+      },
+      {
+        "key": "depth_6",
+        "label": "Depth",
+        "value": "80 mm"
+      },
+      {
+        "key": "width_7",
+        "label": "Width",
+        "value": "22 mm"
+      },
+      {
+        "key": "product_colour_8",
+        "label": "Product colour",
+        "value": "Black"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-ssd-tm8ps7512g0c101-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/2ea5a8c627f20a7982d8098fc42cbdbd.jpg?v=1776186766&width=1206",
+        "alt": "Team Group MS30 512 GB M.2 Serial ATA III — retailer product photograph",
+        "width": 618,
+        "height": 190
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-ssd-t253x2512g0c101",
+    "category": "ssd",
+    "name": "Team Group GX2 512GB Serial ATA III 2.5\"",
+    "brand": "Team Group",
+    "model": "T253X2512G0C101",
+    "price": 71.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/hdtea-512g-gx2",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "write_speed_0",
+        "label": "Write speed",
+        "value": "430 MB/s"
+      },
+      {
+        "key": "read_speed_1",
+        "label": "Read speed",
+        "value": "530 MB/s"
+      },
+      {
+        "key": "interface_2",
+        "label": "Interface",
+        "value": "Serial ATA III"
+      },
+      {
+        "key": "ssd_form_factor_3",
+        "label": "SSD form factor",
+        "value": "2.5\""
+      },
+      {
+        "key": "ssd_capacity_4",
+        "label": "SSD capacity",
+        "value": "512 GB"
+      },
+      {
+        "key": "height_5",
+        "label": "Height",
+        "value": "100 mm"
+      },
+      {
+        "key": "depth_6",
+        "label": "Depth",
+        "value": "7 mm"
+      },
+      {
+        "key": "width_7",
+        "label": "Width",
+        "value": "69.9 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-ssd-t253x2512g0c101-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/99b8dd7530fc115cb99e00d7fc7b3f17_5219f67a-65b8-49fc-b56f-6269ddb89b0d.jpg?v=1776186734&width=1206",
+        "alt": "Team Group GX2 512GB Serial ATA III 2.5\" — retailer product photograph",
+        "width": 442,
+        "height": 622
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-mouse-clutch-gm08",
+    "category": "mouse",
+    "name": "MSI CLUTCH GM08 Optical Gaming Mouse '4200 DPI Optical Sensor, 6 Programmable button, Symmetrical design, Durable switch with 10+ Million Clicks, Weight Adjustable, Red LED'",
+    "brand": "MSI",
+    "model": "CLUTCH GM08",
+    "price": 22.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/west-4719072731151",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "movement_resolution_0",
+        "label": "Movement resolution",
+        "value": "4200 DPI"
+      },
+      {
+        "key": "device_interface_1",
+        "label": "Device interface",
+        "value": "USB Type-A"
+      },
+      {
+        "key": "illumination_colour_2",
+        "label": "Illumination colour",
+        "value": "Red"
+      },
+      {
+        "key": "surface_coloration_3",
+        "label": "Surface coloration",
+        "value": "Monochromatic"
+      },
+      {
+        "key": "product_colour_4",
+        "label": "Product colour",
+        "value": "Black"
+      },
+      {
+        "key": "form_factor_5",
+        "label": "Form factor",
+        "value": "Ambidextrous"
+      },
+      {
+        "key": "power_source_6",
+        "label": "Power source",
+        "value": "Cable"
+      },
+      {
+        "key": "height_7",
+        "label": "Height",
+        "value": "40.5 mm"
+      },
+      {
+        "key": "depth_8",
+        "label": "Depth",
+        "value": "128 mm"
+      },
+      {
+        "key": "width_9",
+        "label": "Width",
+        "value": "68.5 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-mouse-clutch-gm08-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/63166098e7fbc9c01aac84061210c126.jpg?v=1774537872&width=1206",
+        "alt": "MSI CLUTCH GM08 Optical Gaming Mouse '4200 DPI Optical Sensor, 6 Programmable button, Symmetrical design, Durable switch with 10+ Million Clicks, Weight Adjustable, Red LED' — retailer product photograph",
+        "width": 818,
+        "height": 786
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-mouse-g964w-bk",
+    "category": "mouse",
+    "name": "Marvo Scorpion G964W Niro 60 Wireless and Bluetooth USB-C Rechargeable Gaming (Black) mouse Optical",
+    "brand": "Marvo",
+    "model": "G964W-BK",
+    "price": 21.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/mimar-g964w-bk",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "device_interface_0",
+        "label": "Device interface",
+        "value": "Bluetooth"
+      },
+      {
+        "key": "product_colour_1",
+        "label": "Product colour",
+        "value": "Black"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-mouse-g964w-bk-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/77c03d5e74f6cf4c91a546971d3410b9.jpg?v=1777991039&width=1206",
+        "alt": "Marvo Scorpion G964W Niro 60 Wireless and Bluetooth USB-C Rechargeable Gaming (Black) mouse Optical — retailer product photograph",
+        "width": 418,
+        "height": 779
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-mouse-ch-930f000-ww",
+    "category": "mouse",
+    "name": "Corsair M55 mouse Gaming Right-hand USB Type-A Optical 16000 DPI",
+    "brand": "Corsair",
+    "model": "CH-930F000-WW",
+    "price": 37.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/west-ch-9304211-eu",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "customizable_movement_resolution_0",
+        "label": "Customizable movement resolution",
+        "value": "Yes"
+      },
+      {
+        "key": "movement_resolution_1",
+        "label": "Movement resolution",
+        "value": "16000 DPI"
+      },
+      {
+        "key": "device_interface_2",
+        "label": "Device interface",
+        "value": "USB Type-A"
+      },
+      {
+        "key": "illumination_colour_3",
+        "label": "Illumination colour",
+        "value": "Multi"
+      },
+      {
+        "key": "product_colour_4",
+        "label": "Product colour",
+        "value": "Black"
+      },
+      {
+        "key": "form_factor_5",
+        "label": "Form factor",
+        "value": "Right-hand"
+      },
+      {
+        "key": "power_source_6",
+        "label": "Power source",
+        "value": "Cable"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-mouse-ch-930f000-ww-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/818b6078fb78991bcecc4167dc11b255.jpg?v=1776809445&width=1206",
+        "alt": "Corsair M55 mouse Gaming Right-hand USB Type-A Optical 16000 DPI — retailer product photograph",
+        "width": 462,
+        "height": 1028
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-mouse-s12-4301440-cla",
+    "category": "mouse",
+    "name": "MSI Versa 300 Wireless mouse Gaming Right-hand RF Wireless + Bluetooth + USB Type-C Optical 8000 DPI",
+    "brand": "MSI",
+    "model": "S12-4301440-CLA",
+    "price": 32.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/west-4711377284820",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "customizable_movement_resolution_0",
+        "label": "Customizable movement resolution",
+        "value": "Yes"
+      },
+      {
+        "key": "movement_resolution_1",
+        "label": "Movement resolution",
+        "value": "8000 DPI"
+      },
+      {
+        "key": "device_interface_2",
+        "label": "Device interface",
+        "value": "RF Wireless + Bluetooth + USB Type-C"
+      },
+      {
+        "key": "illumination_colour_3",
+        "label": "Illumination colour",
+        "value": "Multi"
+      },
+      {
+        "key": "surface_coloration_4",
+        "label": "Surface coloration",
+        "value": "Monochromatic"
+      },
+      {
+        "key": "product_colour_5",
+        "label": "Product colour",
+        "value": "White"
+      },
+      {
+        "key": "form_factor_6",
+        "label": "Form factor",
+        "value": "Right-hand"
+      },
+      {
+        "key": "power_source_7",
+        "label": "Power source",
+        "value": "Batteries/Cable"
+      },
+      {
+        "key": "height_8",
+        "label": "Height",
+        "value": "41 mm"
+      },
+      {
+        "key": "depth_9",
+        "label": "Depth",
+        "value": "64 mm"
+      },
+      {
+        "key": "width_10",
+        "label": "Width",
+        "value": "125 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-mouse-s12-4301440-cla-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/0bef3e38e61d98ac4cb500ad4b61e07a.jpg?v=1774537872&width=1206",
+        "alt": "MSI Versa 300 Wireless mouse Gaming Right-hand RF Wireless + Bluetooth + USB Type-C Optical 8000 DPI — retailer product photograph",
+        "width": 253,
+        "height": 467
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-keyboard-kg937",
+    "category": "keyboard",
+    "name": "Marvo Scorpion KG937 Arma 98 Wired Hot Swappable Mechanical Backlit UK Layout Gaming Keyboard",
+    "brand": "Marvo",
+    "model": "KG937",
+    "price": 24.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/kemar-kg937-uk",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "keyboard_key_switch_0",
+        "label": "Keyboard key switch",
+        "value": "Mechanical"
+      },
+      {
+        "key": "keyboard_layout_1",
+        "label": "Keyboard layout",
+        "value": "QWERTY"
+      },
+      {
+        "key": "backlight_2",
+        "label": "Backlight",
+        "value": "Yes"
+      },
+      {
+        "key": "backlight_type_3",
+        "label": "Backlight type",
+        "value": "RGB LED"
+      },
+      {
+        "key": "product_colour_4",
+        "label": "Product colour",
+        "value": "Black"
+      },
+      {
+        "key": "power_source_type_5",
+        "label": "Power source type",
+        "value": "USB"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-keyboard-kg937-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/723c731d9ced3eee3e0ece01197b340b.jpg?v=1777990906&width=1206",
+        "alt": "Marvo Scorpion KG937 Arma 98 Wired Hot Swappable Mechanical Backlit UK Layout Gaming Keyboard — retailer product photograph",
+        "width": 971,
+        "height": 366
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-keyboard-vigor-gk30",
+    "category": "keyboard",
+    "name": "MSI VIGOR GK30 RGB MEMchanical Gaming Keyboard ' UK Layout, MECH. Membrane switches, 6-Zone RGB Lighting, RGB Mystic Light, water repellent keyboard design'",
+    "brand": "MSI",
+    "model": "VIGOR GK30",
+    "price": 48.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/west-4719072649166",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "keyboard_form_factor_0",
+        "label": "Keyboard form factor",
+        "value": "Full-size (100%)"
+      },
+      {
+        "key": "keyboard_layout_1",
+        "label": "Keyboard layout",
+        "value": "QWERTY"
+      },
+      {
+        "key": "keyboard_key_switch_2",
+        "label": "Keyboard key switch",
+        "value": "Source conflict: table says mechanical; title says membrane"
+      },
+      {
+        "key": "device_interface_3",
+        "label": "Device interface",
+        "value": "USB"
+      },
+      {
+        "key": "surface_coloration_4",
+        "label": "Surface coloration",
+        "value": "Monochromatic"
+      },
+      {
+        "key": "product_colour_5",
+        "label": "Product colour",
+        "value": "Black"
+      },
+      {
+        "key": "adjustable_backlight_6",
+        "label": "Adjustable backlight",
+        "value": "Yes"
+      },
+      {
+        "key": "backlight_colour_7",
+        "label": "Backlight colour",
+        "value": "Various"
+      },
+      {
+        "key": "backlight_type_8",
+        "label": "Backlight type",
+        "value": "RGB LED"
+      },
+      {
+        "key": "backlight_9",
+        "label": "Backlight",
+        "value": "Yes"
+      },
+      {
+        "key": "power_source_type_10",
+        "label": "Power source type",
+        "value": "USB"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-keyboard-vigor-gk30-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/27cf0a3f005b7280c8f01ddb882cde9a.jpg?v=1774537881&width=1206",
+        "alt": "MSI VIGOR GK30 RGB MEMchanical Gaming Keyboard ' UK Layout, MECH. Membrane switches, 6-Zone RGB Lighting, RGB Mystic Light, water repellent keyboard design' — retailer product photograph",
+        "width": 954,
+        "height": 642
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live. Switch-type fields conflict in the retailer listing; confirm the exact keyboard construction."
+  },
+  {
+    "id": "research-keyboard-k604-uk",
+    "category": "keyboard",
+    "name": "Marvo Scorpion K604 Soldat 20 Wired RGB Multimedia UK Layout Gaming Keyboard",
+    "brand": "Marvo",
+    "model": "K604-UK",
+    "price": 17.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/kemar-k604-uk",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "device_interface_0",
+        "label": "Device interface",
+        "value": "USB"
+      },
+      {
+        "key": "keyboard_layout_1",
+        "label": "Keyboard layout",
+        "value": "QWERTY"
+      },
+      {
+        "key": "backlight_2",
+        "label": "Backlight",
+        "value": "Yes"
+      },
+      {
+        "key": "backlight_type_3",
+        "label": "Backlight type",
+        "value": "RGB LED"
+      },
+      {
+        "key": "product_colour_4",
+        "label": "Product colour",
+        "value": "Black"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-keyboard-k604-uk-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/7b0576bbfd80938d0abc839bb50d7d21.jpg?v=1777990882&width=1206",
+        "alt": "Marvo Scorpion K604 Soldat 20 Wired RGB Multimedia UK Layout Gaming Keyboard — retailer product photograph",
+        "width": 1102,
+        "height": 347
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-keyboard-kg933g-wh",
+    "category": "keyboard",
+    "name": "Marvo Scorpion KG933G Saber 61 Wired Mechanical RGB 60% UK Layout Gaming (White) keyboard QWERTY",
+    "brand": "Marvo",
+    "model": "KG933G-WH",
+    "price": 20.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/kemar-kg933g-wh",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "keyboard_layout_0",
+        "label": "Keyboard layout",
+        "value": "QWERTY"
+      },
+      {
+        "key": "keyboard_form_factor_1",
+        "label": "Keyboard form factor",
+        "value": "60%"
+      },
+      {
+        "key": "backlight_2",
+        "label": "Backlight",
+        "value": "Yes"
+      },
+      {
+        "key": "backlight_type_3",
+        "label": "Backlight type",
+        "value": "RGB LED"
+      },
+      {
+        "key": "product_colour_4",
+        "label": "Product colour",
+        "value": "White"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-keyboard-kg933g-wh-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/0759d1b979d6dde3b763f56ff9e8de93.jpg?v=1777990899&width=1206",
+        "alt": "Marvo Scorpion KG933G Saber 61 Wired Mechanical RGB 60% UK Layout Gaming (White) keyboard QWERTY — retailer product photograph",
+        "width": 1101,
+        "height": 340
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-headset-hg9076w",
+    "category": "headset",
+    "name": "Marvo Scorpion HG9076W Tactic X Pro Wireless Bluetooth / USB-C RGB Gaming Headset (Black) Head-band",
+    "brand": "Marvo",
+    "model": "HG9076W",
+    "price": 33.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/spmar-hg9076w",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "connection_0",
+        "label": "Connection",
+        "value": "Wired / 2.4 GHz / Bluetooth"
+      },
+      {
+        "key": "drivers_1",
+        "label": "Drivers",
+        "value": "53 mm"
+      },
+      {
+        "key": "frequency_response_2",
+        "label": "Frequency response",
+        "value": "20 Hz–20 kHz"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-headset-hg9076w-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/5cc32f4c96a11fc16f7a91e4fb7695b7.jpg?v=1777991164&width=1206",
+        "alt": "Marvo Scorpion HG9076W Tactic X Pro Wireless Bluetooth / USB-C RGB Gaming Headset (Black) Head-band — retailer product photograph",
+        "width": 705,
+        "height": 960
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-headset-hg9067",
+    "category": "headset",
+    "name": "Marvo Scorpion HG9067 7.1 Virtual Surround Sound RGB Gaming Headset, Flexible Omnidirectional Microphone, 50mm Audio Drivers, USB Connection, Black and Red Head-band Black, Red",
+    "brand": "Marvo",
+    "model": "HG9067",
+    "price": 28.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/spmar-hg9067",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "connection_0",
+        "label": "Connection",
+        "value": "USB"
+      },
+      {
+        "key": "drivers_1",
+        "label": "Drivers",
+        "value": "50 mm"
+      },
+      {
+        "key": "audio_2",
+        "label": "Audio",
+        "value": "7.1 virtual surround"
+      },
+      {
+        "key": "product_colour_0",
+        "label": "Product colour",
+        "value": "Black, Red"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-headset-hg9067-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/abfc5705ef1336d931b43ae9b47c7cca.jpg?v=1777991157&width=1206",
+        "alt": "Marvo Scorpion HG9067 7.1 Virtual Surround Sound RGB Gaming Headset, Flexible Omnidirectional Microphone, 50mm Audio Drivers, USB Connection, Black and Red Head-band Black, Red — retailer product photograph",
+        "width": 964,
+        "height": 904
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-headset-ca-9011377-eu",
+    "category": "headset",
+    "name": "Corsair HS35 v2 Headset Wired Head-band Gaming Carbon",
+    "brand": "Corsair",
+    "model": "CA-9011377-EU",
+    "price": 47.95,
+    "stock": "sold_out",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/west-ca-9011386-eu",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "connection_0",
+        "label": "Connection",
+        "value": "Wired"
+      },
+      {
+        "key": "design_1",
+        "label": "Design",
+        "value": "Head-band"
+      },
+      {
+        "key": "colour_2",
+        "label": "Colour",
+        "value": "Carbon"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-headset-ca-9011377-eu-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/3bf4ea327b0436bbff10d161eaae923f.jpg?v=1776809438&width=1206",
+        "alt": "Corsair HS35 v2 Headset Wired Head-band Gaming Carbon — retailer product photograph",
+        "width": 732,
+        "height": 1038
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-headset-maestro-300",
+    "category": "headset",
+    "name": "MSI Maestro 300 Headset Wired Head-band Gaming USB Type-C / USB Type-A Black",
+    "brand": "MSI",
+    "model": "MAESTRO 300",
+    "price": 48.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/west-4711377238977",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "cable_colour_0",
+        "label": "Cable colour",
+        "value": "Black"
+      },
+      {
+        "key": "product_colour_1",
+        "label": "Product colour",
+        "value": "Black"
+      },
+      {
+        "key": "usb_connector_2",
+        "label": "USB connector",
+        "value": "USB Type-C / USB Type-A"
+      },
+      {
+        "key": "height_3",
+        "label": "Height",
+        "value": "84 mm"
+      },
+      {
+        "key": "depth_4",
+        "label": "Depth",
+        "value": "165 mm"
+      },
+      {
+        "key": "width_5",
+        "label": "Width",
+        "value": "197 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-headset-maestro-300-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/67e7741c6be4b44d8872f1ceabe7c3f7.jpg?v=1774537872&width=1206",
+        "alt": "MSI Maestro 300 Headset Wired Head-band Gaming USB Type-C / USB Type-A Black — retailer product photograph",
+        "width": 793,
+        "height": 801
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-speakers-mso3",
+    "category": "speakers",
+    "name": "PREVO MS03 Wireless Stereo Soundbar with Bluetooth, USB & SD, Space-Saving Wireless Speaker for TV, Home Entertainment System, PC, Mobile Device & Gaming Consoles Black",
+    "brand": "PREVO",
+    "model": "MSO3",
+    "price": 12.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/sppre-mso3",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "product_colour_0",
+        "label": "Product colour",
+        "value": "Black"
+      },
+      {
+        "key": "power_source_type_1",
+        "label": "Power source type",
+        "value": "Battery"
+      },
+      {
+        "key": "battery_capacity_2",
+        "label": "Battery capacity",
+        "value": "2000 mAh"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-speakers-mso3-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/e2a653724a2e594f35e086074a55000a.jpg?v=1777991261&width=1206",
+        "alt": "PREVO MS03 Wireless Stereo Soundbar with Bluetooth, USB & SD, Space-Saving Wireless Speaker for TV, Home Entertainment System, PC, Mobile Device & Gaming Consoles Black — retailer product photograph",
+        "width": 1177,
+        "height": 580
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-speakers-sg-269",
+    "category": "speakers",
+    "name": "Marvo Scorpion SG-269 USB Powered RGB Wired and Bluetooth Gaming Speakers",
+    "brand": "Marvo",
+    "model": "SG-269",
+    "price": 22.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/spmar-sg269",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "audio_connection_0",
+        "label": "Audio connection",
+        "value": "3.5 mm / Bluetooth"
+      },
+      {
+        "key": "power_1",
+        "label": "Power",
+        "value": "USB"
+      },
+      {
+        "key": "lighting_2",
+        "label": "Lighting",
+        "value": "RGB"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-speakers-sg-269-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/2d5e873e825f8fadb4aef1c5d1d8158d.jpg?v=1777991237&width=1206",
+        "alt": "Marvo Scorpion SG-269 USB Powered RGB Wired and Bluetooth Gaming Speakers — retailer product photograph",
+        "width": 1017,
+        "height": 992
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-speakers-sg-118",
+    "category": "speakers",
+    "name": "Marvo Scorpion SG-118 Gaming Speakers, Stereo Sound, USB Powered, 7 Colour RGB Lighting, 6w, 3.5mm Input, Black Wired",
+    "brand": "Marvo",
+    "model": "SG-118",
+    "price": 16.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/spmar-sg118",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "product_colour_0",
+        "label": "Product colour",
+        "value": "Black"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-speakers-sg-118-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/e5cd30fac5759d9365a4c6ef52d1763e.jpg?v=1777991226&width=1206",
+        "alt": "Marvo Scorpion SG-118 Gaming Speakers, Stereo Sound, USB Powered, 7 Colour RGB Lighting, 6w, 3.5mm Input, Black Wired — retailer product photograph",
+        "width": 1117,
+        "height": 823
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-accessories-ch-9413770-ww",
+    "category": "accessories",
+    "name": "Corsair MM350 PRO Gaming mouse pad Black",
+    "brand": "Corsair",
+    "model": "CH-9413770-WW",
+    "price": 42.95,
+    "stock": "sold_out",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/west-ch-9412660-ww",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "surface_coloration_0",
+        "label": "Surface coloration",
+        "value": "Monochromatic"
+      },
+      {
+        "key": "product_colour_1",
+        "label": "Product colour",
+        "value": "Black"
+      },
+      {
+        "key": "depth_2",
+        "label": "Depth",
+        "value": "400 mm"
+      },
+      {
+        "key": "width_3",
+        "label": "Width",
+        "value": "930 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-accessories-ch-9413770-ww-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/16a5c82e75e741c7445771563b4ce2d8.jpg?v=1776809464&width=1206",
+        "alt": "Corsair MM350 PRO Gaming mouse pad Black — retailer product photograph",
+        "width": 624,
+        "height": 283
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-fans-spr-cf120-arcp12pwmpst-slim",
+    "category": "fans",
+    "name": "Arctic P12 Slim 12cm Pressure Optimised PWM PST Case Fan w/ Cable Splitter, Black, Fluid Dynamic, 200-2100 RPM",
+    "brand": "Arctic",
+    "model": "SPR-CF120-ARCP12PWMPST-SLIM",
+    "price": 10.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/cf120-arcp12pwmpst-slim",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "fan_diameter_0",
+        "label": "Fan diameter",
+        "value": "120 mm"
+      },
+      {
+        "key": "depth_1",
+        "label": "Depth",
+        "value": "15 mm"
+      },
+      {
+        "key": "control_2",
+        "label": "Control",
+        "value": "PWM / PST"
+      }
+    ],
+    "images": [],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live. Product image download unavailable."
+  },
+  {
+    "id": "research-fans-spr-cf140-arcp14co-pwm",
+    "category": "fans",
+    "name": "Arctic P14 14cm Pressure Optimised PWM PST Case Fan w/ Cable Splitter for Continuous Operation, Black, Dual Ball Bearing, 200-1700 RPM",
+    "brand": "Arctic",
+    "model": "SPR-CF140-ARCP14CO-PWM",
+    "price": 13.95,
+    "stock": "sold_out",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/cf140-arcp14co-pwm",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "fan_diameter_0",
+        "label": "Fan diameter",
+        "value": "140 mm"
+      },
+      {
+        "key": "control_1",
+        "label": "Control",
+        "value": "PWM / PST"
+      },
+      {
+        "key": "bearing_2",
+        "label": "Bearing",
+        "value": "Dual ball bearing"
+      }
+    ],
+    "images": [],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live. Product image download unavailable."
+  },
+  {
+    "id": "research-external_hdd-ahd710p-1tu31-cyl",
+    "category": "external_hdd",
+    "name": "ADATA HD710 Pro external hard drive 1 TB 2.5\" Micro-USB B 3.2 Gen 1 (3.1 Gen 1) Black, Yellow",
+    "brand": "ADATA",
+    "model": "AHD710P-1TU31-CYL",
+    "price": 94.95,
+    "stock": "sold_out",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/hdada-hd710p1tby",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "hdd_size_0",
+        "label": "HDD size",
+        "value": "2.5\""
+      },
+      {
+        "key": "hdd_capacity_1",
+        "label": "HDD capacity",
+        "value": "1 TB"
+      },
+      {
+        "key": "usb_connector_2",
+        "label": "USB connector",
+        "value": "Micro-USB B"
+      },
+      {
+        "key": "product_colour_3",
+        "label": "Product colour",
+        "value": "Black, Yellow"
+      },
+      {
+        "key": "height_4",
+        "label": "Height",
+        "value": "133.3 mm"
+      },
+      {
+        "key": "depth_5",
+        "label": "Depth",
+        "value": "21.5 mm"
+      },
+      {
+        "key": "width_6",
+        "label": "Width",
+        "value": "98.5 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-external_hdd-ahd710p-1tu31-cyl-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/736d2c1322149c75c4dfb3e2c25c09f1.jpg?v=1774131812&width=1206",
+        "alt": "ADATA HD710 Pro external hard drive 1 TB 2.5\" Micro-USB B 3.2 Gen 1 (3.1 Gen 1) Black, Yellow — retailer product photograph",
+        "width": 252,
+        "height": 329
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-external_hdd-ahd710p-5tu31-cbk",
+    "category": "external_hdd",
+    "name": "ADATA HD710 Pro external hard drive 5 TB 3.2 Gen 1 (3.1 Gen 1) Black",
+    "brand": "ADATA",
+    "model": "AHD710P-5TU31-CBK",
+    "price": 224.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/hdada-hd710p5tbb",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "hdd_capacity_0",
+        "label": "HDD capacity",
+        "value": "5 TB"
+      },
+      {
+        "key": "product_colour_1",
+        "label": "Product colour",
+        "value": "Black"
+      },
+      {
+        "key": "height_3",
+        "label": "Height",
+        "value": "26.7 mm"
+      },
+      {
+        "key": "depth_4",
+        "label": "Depth",
+        "value": "133.3 mm"
+      },
+      {
+        "key": "width_5",
+        "label": "Width",
+        "value": "98.5 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-external_hdd-ahd710p-5tu31-cbk-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/79d26a113117c47728990844877612fb.jpg?v=1776895816&width=1206",
+        "alt": "ADATA HD710 Pro external hard drive 5 TB 3.2 Gen 1 (3.1 Gen 1) Black — retailer product photograph",
+        "width": 1052,
+        "height": 1224
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-wifi-ma86xe",
+    "category": "wifi",
+    "name": "Mercusys AXE5400 Wi-Fi 6E Bluetooth 5.3 PCIe Adapter",
+    "brand": "Mercusys",
+    "model": "MA86XE",
+    "price": 33.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/npmer-ma86xe",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "host_interface_0",
+        "label": "Host interface",
+        "value": "PCI Express"
+      },
+      {
+        "key": "wireless_bands_1",
+        "label": "Wireless bands",
+        "value": "2.4 / 5 / 6 GHz"
+      },
+      {
+        "key": "bluetooth_version_2",
+        "label": "Bluetooth version",
+        "value": "Source conflict: title 5.3; table 5.2"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-wifi-ma86xe-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/af66c56ec0d82511558eced7bde50774.jpg?v=1776188316&width=1206",
+        "alt": "Mercusys AXE5400 Wi-Fi 6E Bluetooth 5.3 PCIe Adapter — retailer product photograph",
+        "width": 460,
+        "height": 914
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-wifi-tp-link-archer-txe70uh-axe5400-wi-fi-6e-hig",
+    "category": "wifi",
+    "name": "TP-LINK (Archer TXE70UH) AXE5400 Wi-Fi 6E High Gain Wireless USB Adapter, Tri-Band, USB 3.0, MU-MIMO, OFDMA, WPA3, Cradle",
+    "brand": "TP-LINK",
+    "model": null,
+    "price": 64.31,
+    "stock": "sold_out",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/wl-usbaxe5400tptricra-hg",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "model_0",
+        "label": "Model",
+        "value": "Archer TXE70UH"
+      },
+      {
+        "key": "interface_1",
+        "label": "Interface",
+        "value": "USB 3.0"
+      },
+      {
+        "key": "wireless_bands_2",
+        "label": "Wireless bands",
+        "value": "2.4 / 5 / 6 GHz"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-wifi-tp-link-archer-txe70uh-axe5400-wi-fi-6e-hig-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/WL-USBAXE5400TPTRICRA-HG_e7491e0c-21b1-4de4-8a3e-aaef6f330387.jpg?v=1747750692&width=1206",
+        "alt": "TP-LINK (Archer TXE70UH) AXE5400 Wi-Fi 6E High Gain Wireless USB Adapter, Tri-Band, USB 3.0, MU-MIMO, OFDMA, WPA3, Cradle — retailer product photograph",
+        "width": 347,
+        "height": 490
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-optical-ebau108",
+    "category": "optical",
+    "name": "Lite-On eBAU108 optical disc drive DVD Super Multi DL Black",
+    "brand": "Lite-On",
+    "model": "EBAU108",
+    "price": 33.95,
+    "stock": "sold_out",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/dwlit-ebau108",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "product_colour_0",
+        "label": "Product colour",
+        "value": "Black"
+      },
+      {
+        "key": "interface_1",
+        "label": "Interface",
+        "value": "USB 2.0"
+      },
+      {
+        "key": "dvd_r_write_speed_2",
+        "label": "DVD+R write speed",
+        "value": "8x"
+      },
+      {
+        "key": "dvd_r_write_speed_3",
+        "label": "DVD-R write speed",
+        "value": "8x"
+      },
+      {
+        "key": "dvd_r_double_layer_write_speed_4",
+        "label": "DVD-R Double Layer write speed",
+        "value": "6x"
+      },
+      {
+        "key": "dvd_r_double_layer_write_speed_5",
+        "label": "DVD+R Double Layer write speed",
+        "value": "6x"
+      },
+      {
+        "key": "dvd_rw_write_speed_6",
+        "label": "DVD+RW write speed",
+        "value": "8x"
+      },
+      {
+        "key": "dvd_rw_write_speed_7",
+        "label": "DVD-RW write speed",
+        "value": "6x"
+      },
+      {
+        "key": "dvd_ram_write_speed_8",
+        "label": "DVD-RAM write speed",
+        "value": "5x"
+      },
+      {
+        "key": "cd_rewrite_speed_9",
+        "label": "CD rewrite speed",
+        "value": "24x"
+      },
+      {
+        "key": "cd_write_speed_10",
+        "label": "CD write speed",
+        "value": "24x"
+      },
+      {
+        "key": "dvd_r_double_layer_read_speed_11",
+        "label": "DVD+R Double Layer read speed",
+        "value": "6x"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-optical-ebau108-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/f6d4c4d0bdf6418237dcfa3a7525b2ba.jpg?v=1776185932&width=1206",
+        "alt": "Lite-On eBAU108 optical disc drive DVD Super Multi DL Black — retailer product photograph",
+        "width": 274,
+        "height": 185
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-paste-dp-tim-z3-2",
+    "category": "paste",
+    "name": "DeepCool Z3 Thermal Compound Syringe, 6.5g, Silver Grey, High Performance with Excellent Thermal Conductivity, High Compatibility for Most CPU Coolers",
+    "brand": "DeepCool",
+    "model": "DP-TIM-Z3-2",
+    "price": 10.95,
+    "stock": "sold_out",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/fadee-z3",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "gross_weight_0",
+        "label": "Gross weight",
+        "value": "6.5 g"
+      },
+      {
+        "key": "colour_1",
+        "label": "Colour",
+        "value": "Silver grey"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-paste-dp-tim-z3-2-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/c72c0eac53ca8d031f97de9cb1291d61.jpg?v=1774131808&width=1206",
+        "alt": "DeepCool Z3 Thermal Compound Syringe, 6.5g, Silver Grey, High Performance with Excellent Thermal Conductivity, High Compatibility for Most CPU Coolers — retailer product photograph",
+        "width": 521,
+        "height": 349
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-paste-dp-tim-z5-2",
+    "category": "paste",
+    "name": "DeepCool Z5 Thermal Compound Syringe, 7g, Silver Grey, High Performance with Excellent Thermal Conductivity, Recommended for use with High Performance CPU Coolers",
+    "brand": "DeepCool",
+    "model": "DP-TIM-Z5-2",
+    "price": 10.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/fadee-z5",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "gross_weight_0",
+        "label": "Gross weight",
+        "value": "7 g"
+      },
+      {
+        "key": "colour_1",
+        "label": "Colour",
+        "value": "Silver grey"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-paste-dp-tim-z5-2-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/515375ea4b42545ba5824d1d570dd396.jpg?v=1774131809&width=1206",
+        "alt": "DeepCool Z5 Thermal Compound Syringe, 7g, Silver Grey, High Performance with Excellent Thermal Conductivity, Recommended for use with High Performance CPU Coolers — retailer product photograph",
+        "width": 686,
+        "height": 453
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-fans-0-761345-40060-2",
+    "category": "fans",
+    "name": "Antec 0-761345-40060-2 computer cooling system Computer case Fan 12 cm Black",
+    "brand": "Antec",
+    "model": "0-761345-40060-2",
+    "price": 27.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/faant-vis120argb",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "pulse_width_modulation_pwm_support_0",
+        "label": "Pulse-width modulation (PWM) support",
+        "value": "Yes"
+      },
+      {
+        "key": "fan_diameter_1",
+        "label": "Fan diameter",
+        "value": "12 cm"
+      },
+      {
+        "key": "fan_connector_2",
+        "label": "Fan connector",
+        "value": "4-pin"
+      },
+      {
+        "key": "illumination_colour_3",
+        "label": "Illumination colour",
+        "value": "Amber, Blue, Green, Red"
+      },
+      {
+        "key": "led_connector_type_4",
+        "label": "LED connector type",
+        "value": "3-pin"
+      },
+      {
+        "key": "product_colour_5",
+        "label": "Product colour",
+        "value": "Black"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-fans-0-761345-40060-2-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/39e3f432d211ddc40769488984abb4ad.jpg?v=1776809379&width=1206",
+        "alt": "Antec 0-761345-40060-2 computer cooling system Computer case Fan 12 cm Black — retailer product photograph",
+        "width": 427,
+        "height": 514
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-monitor-pro-mp271-e14a",
+    "category": "monitor",
+    "name": "MSI Pro MP271 E14A computer monitor 68.6 cm (27\") 1920 x 1080 pixels Full HD LCD Black",
+    "brand": "MSI",
+    "model": "PRO MP271 E14A",
+    "price": 108.95,
+    "stock": "sold_out",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/west-4711377381697",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "display_resolution_0",
+        "label": "Display resolution",
+        "value": "1920 x 1080 pixels"
+      },
+      {
+        "key": "supported_graphics_resolutions_1",
+        "label": "Supported graphics resolutions",
+        "value": "1920 x 1080 (HD 1080)"
+      },
+      {
+        "key": "maximum_refresh_rate_2",
+        "label": "Maximum refresh rate",
+        "value": "144 Hz"
+      },
+      {
+        "key": "display_number_of_colours_3",
+        "label": "Display number of colours",
+        "value": "16.7 million colours"
+      },
+      {
+        "key": "viewable_size_horizontal_4",
+        "label": "Viewable size, horizontal",
+        "value": "59.8 cm"
+      },
+      {
+        "key": "viewable_size_vertical_5",
+        "label": "Viewable size, vertical",
+        "value": "33.6 cm"
+      },
+      {
+        "key": "colour_depth_6",
+        "label": "Colour depth",
+        "value": "8 bit"
+      },
+      {
+        "key": "colour_gamut_standard_7",
+        "label": "Colour gamut standard",
+        "value": "DCI-P3"
+      },
+      {
+        "key": "colour_gamut_8",
+        "label": "Colour gamut",
+        "value": "87%"
+      },
+      {
+        "key": "product_colour_9",
+        "label": "Product colour",
+        "value": "Black"
+      },
+      {
+        "key": "front_bezel_colour_10",
+        "label": "Front bezel colour",
+        "value": "Black"
+      },
+      {
+        "key": "feet_colour_11",
+        "label": "Feet colour",
+        "value": "Black"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-monitor-pro-mp271-e14a-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/5bd1292fe43a624ab5b50fb057b3c0b5.jpg?v=1774537881&width=1206",
+        "alt": "MSI Pro MP271 E14A computer monitor 68.6 cm (27\") 1920 x 1080 pixels Full HD LCD Black — retailer product photograph",
+        "width": 1211,
+        "height": 918
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live."
+  },
+  {
+    "id": "research-os-kw9-00632",
+    "category": "os",
+    "name": "Microsoft Windows 11 Home 1 license(s)",
+    "brand": "Microsoft",
+    "model": "KW9-00632",
+    "price": 122.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/swmic-kw9-00632",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "media_type_0",
+        "label": "Media type",
+        "value": "DVD"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-os-kw9-00632-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/8f7b0af2a233b6fbee549a9072dd44a3.jpg?v=1776190996&width=1206",
+        "alt": "Microsoft Windows 11 Home 1 license(s) — retailer product photograph",
+        "width": 379,
+        "height": 374
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live. DVD media. Check licence and installation requirements; no optical drive is assumed."
+  },
+  {
+    "id": "research-os-fqc-10528",
+    "category": "os",
+    "name": "Microsoft Windows 11 Pro OEM",
+    "brand": "Microsoft",
+    "model": "FQC-10528",
+    "price": 151.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/swmic-fqc-10528",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "media_type_0",
+        "label": "Media type",
+        "value": "DVD"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-os-fqc-10528-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/50306146f3ef0d68dd0cf36cf676a7f1.jpg?v=1776190968&width=1206",
+        "alt": "Microsoft Windows 11 Pro OEM — retailer product photograph",
+        "width": 399,
+        "height": 399
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live. DVD media. Check licence and installation requirements; no optical drive is assumed."
+  },
+  {
+    "id": "research-accessories-m-2-ssd-enclosure-usb-c-external-hard-drive",
+    "category": "accessories",
+    "name": "M.2 SSD Enclosure, USB-C External Hard Drive Case with USB-C & USB-A Cables, Portable SSD Adapter for Laptop, PC, MacBook & Tablet",
+    "brand": "Not stated",
+    "model": null,
+    "price": 29.99,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/m-2-ssd-enclosure-usb-c-external-hard-drive-case-with-usb-c-usb-a-cables-portable-ssd-adapter-for-laptop-pc-macbook-tablet",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "color_pattern_0",
+        "label": "Color pattern",
+        "value": "Black"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-accessories-m-2-ssd-enclosure-usb-c-external-hard-drive-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/Firefly_GeminiFlash_add2blacksmoothusbcablesontheright_aUSBAandaUSBCcable_appearingfrom947758.png?v=1792403388&width=1206",
+        "alt": "M.2 SSD Enclosure, USB-C External Hard Drive Case with USB-C & USB-A Cables, Portable SSD Adapter for Laptop, PC, MacBook & Tablet — retailer product photograph",
+        "width": 1204,
+        "height": 1062
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live. Empty enclosure only; an SSD is not included."
+  },
+  {
+    "id": "research-case-wh-case-msiforge112r-black",
+    "category": "case",
+    "name": "MSI MAG FORGE 112R Mid-Tower PC Case - Tempered Glass, ATX, Micro-ATX & Mini-ITX Capacity, Front Mesh Panel, 4 x 120mm ARGB fans with Hub Controller, Magnetic Dust Filter, USB 3.2 Gen 1 Type-A Ports",
+    "brand": "MSI",
+    "model": "WH-CASE-MSIFORGE112R-BLACK",
+    "price": 59.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/msi-mag-forge-112r-mid-tower-pc-case-tempered-glass-atx-micro-atx-mini-itx-capacity-front-mesh-panel-4-x-120mm-argb-fans-with-hub-controller-magnetic-dust-filter-usb-3-2-gen-1-type-a-ports",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "colour",
+        "label": "Colour",
+        "value": "Black"
+      },
+      {
+        "key": "motherboard_support",
+        "label": "Motherboard support",
+        "value": "ATX / mATX / ITX"
+      },
+      {
+        "key": "gpu_clearance",
+        "label": "GPU clearance",
+        "value": "330 mm"
+      },
+      {
+        "key": "cooler_clearance",
+        "label": "CPU cooler clearance",
+        "value": "160 mm"
+      },
+      {
+        "key": "case_fans",
+        "label": "Included fans",
+        "value": "4 × 120 mm ARGB"
+      },
+      {
+        "key": "dimensions",
+        "label": "Dimensions",
+        "value": "409 × 214 × 485 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-case-wh-case-msiforge112r-black-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/81qN5dSitfL._AC_SX679.jpg?v=1748439116&width=1206",
+        "alt": "MSI MAG FORGE 112R Mid-Tower PC Case - Tempered Glass, ATX, Micro-ATX & Mini-ITX Capacity, Front Mesh Panel, 4 x 120mm ARGB fans with Hub Controller, Magnetic Dust Filter, USB 3.2 Gen 1 Type-A Ports — retailer product photograph",
+        "width": 703,
+        "height": 888
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live.",
+    "caseSpecs": {
+      "id": "research-case-wh-case-msiforge112r-black",
+      "name": "MSI MAG FORGE 112R Mid-Tower PC Case - Tempered Glass, ATX, Micro-ATX & Mini-ITX Capacity, Front Mesh Panel, 4 x 120mm ARGB fans with Hub Controller, Magnetic Dust Filter, USB 3.2 Gen 1 Type-A Ports",
+      "price_gbp": 59.95,
+      "stock": "unknown",
+      "url": "https://pcgamingcases.co.uk/products/msi-mag-forge-112r-mid-tower-pc-case-tempered-glass-atx-micro-atx-mini-itx-capacity-front-mesh-panel-4-x-120mm-argb-fans-with-hub-controller-magnetic-dust-filter-usb-3-2-gen-1-type-a-ports",
+      "motherboard_support": [
+        "ATX",
+        "mATX",
+        "ITX"
+      ],
+      "gpu_max_mm": 330,
+      "cooler_max_mm": 160,
+      "radiators": [
+        {
+          "position": "Published mount — confirm location",
+          "max_mm": 240
+        }
+      ],
+      "dimensions_mm": "409 × 214 × 485"
+    }
+  },
+  {
+    "id": "research-case-wh-case-msiforgem100r-black",
+    "category": "case",
+    "name": "MSI MAG FORGE M100R Mini-Tower PC Case - Tempered Glass, Micro-ATX & Mini-ITX Capacity, Front Mesh Panel, 4 x 120mm ARGB fans with Hub Controller, Magnetic Dust Filter, USB 3.2 Gen 1 Type-A Port",
+    "brand": "MSI",
+    "model": "WH-CASE-MSIFORGEM100R-BLACK",
+    "price": 49.99,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/msi-mag-forge-m100r-mini-tower-pc-case-tempered-glass-micro-atx-mini-itx-capacity-front-mesh-panel-4-x-120mm-argb-fans-with-hub-controller-magnetic-dust-filter-usb-3-2-gen-1-type-a-port",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "colour",
+        "label": "Colour",
+        "value": "Black"
+      },
+      {
+        "key": "motherboard_support",
+        "label": "Motherboard support",
+        "value": "mATX / ITX"
+      },
+      {
+        "key": "gpu_clearance",
+        "label": "GPU clearance",
+        "value": "300 mm"
+      },
+      {
+        "key": "cooler_clearance",
+        "label": "CPU cooler clearance",
+        "value": "160 mm"
+      },
+      {
+        "key": "case_fans",
+        "label": "Included fans",
+        "value": "4 × 120 mm ARGB"
+      },
+      {
+        "key": "dimensions",
+        "label": "Dimensions",
+        "value": "388 × 200 × 423 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-case-wh-case-msiforgem100r-black-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/51Mi1Ip9VtL._AC_SX679.jpg?v=1748434357&width=1206",
+        "alt": "MSI MAG FORGE M100R Mini-Tower PC Case - Tempered Glass, Micro-ATX & Mini-ITX Capacity, Front Mesh Panel, 4 x 120mm ARGB fans with Hub Controller, Magnetic Dust Filter, USB 3.2 Gen 1 Type-A Port — retailer product photograph",
+        "width": 532,
+        "height": 671
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched retailer snapshot, checked 1 November 2026. Price and availability are not live.",
+    "caseSpecs": {
+      "id": "research-case-wh-case-msiforgem100r-black",
+      "name": "MSI MAG FORGE M100R Mini-Tower PC Case - Tempered Glass, Micro-ATX & Mini-ITX Capacity, Front Mesh Panel, 4 x 120mm ARGB fans with Hub Controller, Magnetic Dust Filter, USB 3.2 Gen 1 Type-A Port",
+      "price_gbp": 49.99,
+      "stock": "unknown",
+      "url": "https://pcgamingcases.co.uk/products/msi-mag-forge-m100r-mini-tower-pc-case-tempered-glass-micro-atx-mini-itx-capacity-front-mesh-panel-4-x-120mm-argb-fans-with-hub-controller-magnetic-dust-filter-usb-3-2-gen-1-type-a-port",
+      "motherboard_support": [
+        "mATX",
+        "ITX"
+      ],
+      "gpu_max_mm": 300,
+      "cooler_max_mm": 160,
+      "radiators": [
+        {
+          "position": "Published mount — confirm location",
+          "max_mm": 240
+        }
+      ],
+      "dimensions_mm": "388 × 200 × 423"
+    }
+  },
+  {
+    "id": "research-cooling_accessories-0-761345-70002-3",
+    "category": "cooling_accessories",
+    "name": "Antec ARGB & PWM Fan Controller",
+    "brand": "Antec",
+    "model": "0-761345-70002-3",
+    "price": 14.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/faant-argbhub",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "outputs_0",
+        "label": "Outputs",
+        "value": "5 PWM + 5 ARGB"
+      },
+      {
+        "key": "power_1",
+        "label": "Power",
+        "value": "SATA / 12 V; LED 5 V"
+      },
+      {
+        "key": "dimensions_2",
+        "label": "Dimensions",
+        "value": "102 × 41 × 15 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-cooling_accessories-0-761345-70002-3-1.webp",
+        "alt": "Antec ARGB & PWM Fan Controller — retailer photograph",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/177e744e115d4017ebb395fcbc5e31b5.jpg?v=1776185965&width=1206",
+        "width": 246,
+        "height": 216
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "note": "Retailer snapshot checked 1 November 2026. Price and availability are not live. Verify header voltage and controller current limits."
+  },
+  {
+    "id": "research-case-bgw72",
+    "category": "case",
+    "name": "be quiet! LIGHT BASE 900 FX White",
+    "brand": "be quiet!",
+    "model": "BGW72",
+    "price": 188.95,
+    "stock": "sold_out",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/cabeq-bgw72",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "colour",
+        "label": "Colour",
+        "value": "White"
+      },
+      {
+        "key": "form_factor",
+        "label": "Form factor",
+        "value": "Full tower"
+      },
+      {
+        "key": "motherboard_support",
+        "label": "Motherboard support",
+        "value": "ATX / E-ATX / mATX / Mini-ITX / XL-ATX"
+      },
+      {
+        "key": "gpu_clearance",
+        "label": "GPU clearance",
+        "value": "495 mm"
+      },
+      {
+        "key": "cpu_cooler_clearance",
+        "label": "CPU cooler clearance",
+        "value": "190 mm"
+      },
+      {
+        "key": "included_fans",
+        "label": "Included fans",
+        "value": "4 × 140 mm Light Wings PWM"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-case-bgw72-1.webp",
+        "alt": "be quiet! LIGHT BASE 900 FX White — retailer product image",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/0c38ea30c2f5689b5e9376ff3547e6a5.jpg?v=1774134440&width=1206",
+        "width": 1052,
+        "height": 1224
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched snapshot checked 1 November 2026. Prices and availability are not live. ",
+    "caseSpecs": {
+      "id": "research-case-bgw72",
+      "name": "be quiet! LIGHT BASE 900 FX White",
+      "price_gbp": 188.95,
+      "stock": "sold_out",
+      "url": "https://pcgamingcases.co.uk/products/cabeq-bgw72",
+      "motherboard_support": [
+        "ATX",
+        "E-ATX",
+        "mATX",
+        "ITX",
+        "XL-ATX"
+      ],
+      "gpu_max_mm": 495,
+      "cooler_max_mm": 190,
+      "radiators": [
+        {
+          "position": "Bottom",
+          "sizes_mm": [
+            120,
+            140,
+            240,
+            280,
+            360,
+            420
+          ]
+        },
+        {
+          "position": "Side",
+          "sizes_mm": [
+            120,
+            140,
+            240,
+            280,
+            360
+          ]
+        },
+        {
+          "position": "Rear",
+          "sizes_mm": [
+            120,
+            140
+          ]
+        }
+      ],
+      "dimensions_mm": null
+    }
+  },
+  {
+    "id": "research-case-90dc00v3-b39010",
+    "category": "case",
+    "name": "ASUS PRIME AP303 TG White",
+    "brand": "ASUS",
+    "model": "90DC00V3-B39010",
+    "price": 103.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/west-90dc00v3-b39010",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "colour",
+        "label": "Colour",
+        "value": "White"
+      },
+      {
+        "key": "form_factor",
+        "label": "Form factor",
+        "value": "Midi tower"
+      },
+      {
+        "key": "motherboard_support",
+        "label": "Motherboard support",
+        "value": "ATX / mATX / Mini-ITX"
+      },
+      {
+        "key": "gpu_clearance",
+        "label": "GPU clearance",
+        "value": "360 mm"
+      },
+      {
+        "key": "cpu_cooler_clearance",
+        "label": "CPU cooler clearance",
+        "value": "165 mm"
+      },
+      {
+        "key": "included_rear_fan",
+        "label": "Included rear fan",
+        "value": "1 × 120 mm"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-case-90dc00v3-b39010-1.webp",
+        "alt": "ASUS PRIME AP303 TG White — retailer product image",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/1ad1b68da94b1fff05a600fefe14846d.jpg?v=1783726189&width=1206",
+        "width": 723,
+        "height": 811
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched snapshot checked 1 November 2026. Prices and availability are not live. ",
+    "caseSpecs": {
+      "id": "research-case-90dc00v3-b39010",
+      "name": "ASUS PRIME AP303 TG White",
+      "price_gbp": 103.95,
+      "stock": "unknown",
+      "url": "https://pcgamingcases.co.uk/products/west-90dc00v3-b39010",
+      "motherboard_support": [
+        "ATX",
+        "mATX",
+        "ITX"
+      ],
+      "gpu_max_mm": 360,
+      "cooler_max_mm": 165,
+      "radiators": [
+        {
+          "position": "Top",
+          "sizes_mm": [
+            120,
+            140,
+            240,
+            280,
+            360
+          ]
+        },
+        {
+          "position": "Rear",
+          "sizes_mm": [
+            120
+          ]
+        }
+      ],
+      "dimensions_mm": "485 × 215 × 425"
+    }
+  },
+  {
+    "id": "research-keyboard-bt003uk",
+    "category": "keyboard",
+    "name": "be quiet! Light Mount Silent Linear UK ISO",
+    "brand": "be quiet!",
+    "model": "BT003UK",
+    "price": 138.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/kebeq-bt003uk",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "layout",
+        "label": "Layout",
+        "value": "UK English / ISO / QWERTY"
+      },
+      {
+        "key": "switch",
+        "label": "Switch",
+        "value": "Mechanical Silent Linear"
+      },
+      {
+        "key": "connection",
+        "label": "Connection",
+        "value": "USB"
+      },
+      {
+        "key": "size",
+        "label": "Size",
+        "value": "Full-size (100%)"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-keyboard-bt003uk-1.webp",
+        "alt": "be quiet! Light Mount Silent Linear UK ISO — retailer product image",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/e7ca70795cb03a55865e36e03d146775.jpg?v=1774128820&width=1206",
+        "width": 1012,
+        "height": 716
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched snapshot checked 1 November 2026. Prices and availability are not live. "
+  },
+  {
+    "id": "research-ssd-ssd7cs900-250-rb",
+    "category": "ssd",
+    "name": "PNY CS900 250 GB SATA SSD",
+    "brand": "PNY",
+    "model": "SSD7CS900-250-RB",
+    "price": 49.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/hdpny-7cs900250r",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "capacity",
+        "label": "Capacity",
+        "value": "250 GB"
+      },
+      {
+        "key": "interface",
+        "label": "Interface",
+        "value": "SATA III"
+      },
+      {
+        "key": "form_factor",
+        "label": "Form factor",
+        "value": "2.5 inch / 7 mm"
+      },
+      {
+        "key": "read_speed",
+        "label": "Read speed",
+        "value": "Up to 535 MB/s"
+      },
+      {
+        "key": "write_speed",
+        "label": "Write speed",
+        "value": "Up to 500 MB/s"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-ssd-ssd7cs900-250-rb-1.webp",
+        "alt": "PNY CS900 250 GB SATA SSD — retailer product image",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/1d3b3792b82f33a2e786bf0acb3c0063.jpg?v=1776809387&width=1206",
+        "width": 413,
+        "height": 295
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched snapshot checked 1 November 2026. Prices and availability are not live. "
+  },
+  {
+    "id": "research-accessories-sd-microsd-usb-reader",
+    "category": "accessories",
+    "name": "2-in-1 SD & Micro SD USB-A / USB-C Card Reader",
+    "brand": "Not stated",
+    "model": null,
+    "price": 24.99,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/2-in-1-sd-micro-sd-card-reader-usb-3-0-type-a-usb-c-dual-interface-memory-card-adapter-for-laptop-pc-macbook-ipad-smartphone",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "host_connection",
+        "label": "Host connection",
+        "value": "USB 3.0 Type-A / USB-C"
+      },
+      {
+        "key": "media",
+        "label": "Media",
+        "value": "SD / SDHC / SDXC / microSDHC / microSDXC"
+      },
+      {
+        "key": "contents",
+        "label": "Contents",
+        "value": "Card reader; memory cards not included"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-accessories-sd-microsd-usb-reader-1.webp",
+        "alt": "2-in-1 SD & Micro SD USB-A / USB-C Card Reader — retailer product image",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/cardmain.jpg?v=1792399518&width=1206",
+        "width": 1006,
+        "height": 1029
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched snapshot checked 1 November 2026. Prices and availability are not live. Retailer listing does not identify the manufacturer or model."
+  },
+  {
+    "id": "research-accessories-25-sata-usb-enclosure",
+    "category": "accessories",
+    "name": "2.5-inch SATA USB 3.0 Drive Enclosure",
+    "brand": "Not stated",
+    "model": null,
+    "price": 29.99,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/ionz-2-5-inch-sata-hard-drive-enclosure-usb-3-0-external-hdd-ssd-case-with-usb-3-0-cable-portable-drive-caddy-for-laptop-pc-mac-xbox",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "drive_interface",
+        "label": "Drive interface",
+        "value": "2.5-inch SATA HDD / SSD"
+      },
+      {
+        "key": "drive_height",
+        "label": "Drive height",
+        "value": "7–9.5 mm"
+      },
+      {
+        "key": "host_connection",
+        "label": "Host connection",
+        "value": "USB-A / USB 3.0"
+      },
+      {
+        "key": "contents",
+        "label": "Contents",
+        "value": "Empty enclosure; drive not included"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-accessories-25-sata-usb-enclosure-1.webp",
+        "alt": "2.5-inch SATA USB 3.0 Drive Enclosure — retailer product image",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/imagessd.jpg?v=1792405112&width=1206",
+        "width": 1122,
+        "height": 819
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched snapshot checked 1 November 2026. Prices and availability are not live. Retailer listing does not identify the manufacturer or model."
+  },
+  {
+    "id": "research-accessories-usb-c-3in1-hub",
+    "category": "accessories",
+    "name": "3-in-1 USB-C Hub with HDMI, USB-A & USB-C Charging",
+    "brand": "Not stated",
+    "model": null,
+    "price": 29.99,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/4k-3-in-1-usb-c-hub-usb-c-to-hdmi-multiport-adapter-with-usb-3-0-port-usb-c-charging-port-aluminium-body-for-macbook-laptop-ipad-tablet",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "host_connection",
+        "label": "Host connection",
+        "value": "USB-C"
+      },
+      {
+        "key": "connections",
+        "label": "Connections",
+        "value": "HDMI / USB 3.0 Type-A / USB-C charging"
+      },
+      {
+        "key": "display_mode",
+        "label": "Display mode",
+        "value": "Up to 4K; refresh rate not captured"
+      },
+      {
+        "key": "housing",
+        "label": "Housing",
+        "value": "Aluminium"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-accessories-usb-c-3in1-hub-1.webp",
+        "alt": "3-in-1 USB-C Hub with HDMI, USB-A & USB-C Charging — retailer product image",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/Firefly_GeminiFlash_separatetheproductfromthebackground_makethebackgroundplainwhiteandenlarge858643.jpg?v=1792408706&width=1206",
+        "width": 1001,
+        "height": 1013
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched snapshot checked 1 November 2026. Prices and availability are not live. Retailer listing does not identify the manufacturer or model. Display output requires a host USB-C port that supports video."
+  },
+  {
+    "id": "research-mouse-m292-bk",
+    "category": "mouse",
+    "name": "Marvo Scorpion M292 Capo 20 (Black)",
+    "brand": "Marvo",
+    "model": "M292-BK",
+    "price": 12.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/mimar-m292-bk",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "connection",
+        "label": "Connection",
+        "value": "USB 2.0"
+      },
+      {
+        "key": "sensor",
+        "label": "Sensor",
+        "value": "Optical"
+      },
+      {
+        "key": "buttons",
+        "label": "Buttons",
+        "value": "7 programmable"
+      },
+      {
+        "key": "polling_rate",
+        "label": "Polling rate",
+        "value": "125 Hz"
+      },
+      {
+        "key": "weight",
+        "label": "Weight",
+        "value": "78 g"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-mouse-m292-bk-1.webp",
+        "alt": "Marvo Scorpion M292 Capo 20 (Black) — retailer product image",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/mimar-m292-bk-hg_38ab5c1f-49bd-4428-a92e-6bb03dc95085.jpg?v=1774004934&width=1206",
+        "width": 503,
+        "height": 989
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched snapshot checked 1 November 2026. Prices and availability are not live. The source contains conflicting DPI figures; sensitivity is not promoted as a verified specification."
+  },
+  {
+    "id": "research-mouse-s12-4301370-cla",
+    "category": "mouse",
+    "name": "MSI S12-4301370-CLA Wireless Gaming Mouse",
+    "brand": "MSI",
+    "model": "S12-4301370-CLA",
+    "price": 98.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/west-4711377269773",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "connection",
+        "label": "Connection",
+        "value": "RF wireless / Bluetooth / USB"
+      },
+      {
+        "key": "sensor_resolution",
+        "label": "Sensor resolution",
+        "value": "26000 DPI"
+      },
+      {
+        "key": "polling_rate",
+        "label": "Polling rate",
+        "value": "1000 Hz"
+      },
+      {
+        "key": "shape",
+        "label": "Shape",
+        "value": "Right-hand"
+      },
+      {
+        "key": "colour",
+        "label": "Colour",
+        "value": "Black"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-mouse-s12-4301370-cla-1.webp",
+        "alt": "MSI S12-4301370-CLA Wireless Gaming Mouse — retailer product image",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/ddce6b6eaa4308244b91dbc9e05653de.jpg?v=1774537871&width=1206",
+        "width": 424,
+        "height": 672
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched snapshot checked 1 November 2026. Prices and availability are not live. "
+  },
+  {
+    "id": "research-motherboard-b760m-gaming-plus-wifi-ddr4",
+    "category": "motherboard",
+    "name": "GIGABYTE B760M GAMING PLUS WIFI DDR4",
+    "brand": "Gigabyte",
+    "model": "B760M GAMING PLUS WIFI DDR4",
+    "price": 119.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/mbgig-b760mgpwd",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "cpu_socket",
+        "label": "CPU socket",
+        "value": "LGA 1700"
+      },
+      {
+        "key": "memory",
+        "label": "Memory",
+        "value": "DDR4 / 4 DIMM slots"
+      },
+      {
+        "key": "form_factor",
+        "label": "Form factor",
+        "value": "micro ATX"
+      },
+      {
+        "key": "storage_interfaces",
+        "label": "Storage interfaces",
+        "value": "M.2 / SATA III"
+      },
+      {
+        "key": "maximum_memory",
+        "label": "Maximum memory",
+        "value": "128 GB"
+      }
+    ],
+    "images": [
+      {
+        "src": "/products/research-motherboard-b760m-gaming-plus-wifi-ddr4-1.webp",
+        "alt": "GIGABYTE B760M GAMING PLUS WIFI DDR4 — retailer product image",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/c4a5a2deaf5663ab4b56ca4711647647.jpg?v=1774131833&width=1206",
+        "width": 1125,
+        "height": 708
+      }
+    ],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched snapshot checked 1 November 2026. Prices and availability are not live. "
+  },
+  {
+    "id": "research-cpu-bx8071512400f",
+    "category": "cpu",
+    "name": "Intel Core i5-12400F (Box)",
+    "brand": "Intel",
+    "model": "BX8071512400F",
+    "price": 144.95,
+    "stock": "unknown",
+    "sourceUrl": "https://pcgamingcases.co.uk/products/print-i512400f",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "socket",
+        "label": "Socket",
+        "value": "LGA 1700"
+      },
+      {
+        "key": "cores",
+        "label": "Cores",
+        "value": "6"
+      },
+      {
+        "key": "threads",
+        "label": "Threads",
+        "value": "12"
+      },
+      {
+        "key": "maximum_turbo_frequency",
+        "label": "Maximum turbo frequency",
+        "value": "4.4 GHz"
+      },
+      {
+        "key": "cache",
+        "label": "Cache",
+        "value": "18 MB"
+      },
+      {
+        "key": "cooler_included",
+        "label": "Cooler included",
+        "value": "Yes"
+      }
+    ],
+    "images": [],
+    "imagePermission": "User confirmed permission for IONZ / PC Gaming Cases product photography on 1 November 2026.",
+    "note": "Researched snapshot checked 1 November 2026. Prices and availability are not live.  The retailer only supplies a generic Core i5 brand tile; it is withheld because it does not identify this exact processor or packaging."
+  },
+  {
+    "id": "research-hdd-wd60efpx",
+    "category": "hdd",
+    "name": "WD Red Plus 6 TB NAS HDD",
+    "brand": "Western Digital",
+    "model": "WD60EFPX",
+    "price": null,
+    "stock": "unknown",
+    "sourceUrl": "https://www.westerndigital.com/products/internal-drives/wd-red-plus-sata-3-5-hdd?sku=WD60EFPX",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "capacity",
+        "label": "Capacity",
+        "value": "6 TB"
+      },
+      {
+        "key": "form_factor",
+        "label": "Form factor",
+        "value": "3.5 inch"
+      },
+      {
+        "key": "rotation_speed",
+        "label": "Rotation speed",
+        "value": "5400 RPM"
+      },
+      {
+        "key": "intended_use",
+        "label": "Intended use",
+        "value": "NAS / RAID"
+      }
+    ],
+    "images": [],
+    "imagePermission": "No manufacturer image reused; usage permission not established.",
+    "note": "Researched snapshot checked 1 November 2026. Prices and availability are not live. Manufacturer catalogue reference. Retailer page unavailable; GBP price and current availability not verified. NAS drive, not a gaming-performance recommendation. Product photography withheld until usage rights are established."
+  },
+  {
+    "id": "research-external_ssd-sxs1000-1000g",
+    "category": "external_ssd",
+    "name": "Kingston XS1000 1 TB External SSD (Black)",
+    "brand": "Kingston",
+    "model": "SXS1000/1000G",
+    "price": null,
+    "stock": "unknown",
+    "sourceUrl": "https://www.kingston.com/en/memory/search?partid=SXS1000%2F1000G",
+    "captured": "2026-11-01",
+    "origin": "researched",
+    "specs": [
+      {
+        "key": "capacity",
+        "label": "Capacity",
+        "value": "1 TB"
+      },
+      {
+        "key": "interface",
+        "label": "Interface",
+        "value": "USB 3.2 Gen 2"
+      },
+      {
+        "key": "read_speed",
+        "label": "Read speed",
+        "value": "Up to 1050 MB/s"
+      },
+      {
+        "key": "write_speed",
+        "label": "Write speed",
+        "value": "Up to 1000 MB/s"
+      },
+      {
+        "key": "included_connections",
+        "label": "Included connections",
+        "value": "USB-C to USB-A cable / USB-A to USB-C adapter"
+      }
+    ],
+    "images": [],
+    "imagePermission": "No manufacturer image reused; usage permission not established.",
+    "note": "Researched snapshot checked 1 November 2026. Prices and availability are not live. Manufacturer catalogue reference. Retailer page unavailable; GBP price and current availability not verified. Product photography withheld until usage rights are established."
+  }
+]

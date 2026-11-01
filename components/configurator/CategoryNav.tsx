@@ -1,16 +1,13 @@
 "use client";
-
-import { CATEGORIES, CATEGORY_LABELS, type Category } from "@/lib/catalog/schema";
+import {
+  CATEGORIES,
+  CATEGORY_LABELS,
+  type Category,
+} from "@/lib/catalog/schema";
+import { findPart } from "@/lib/catalog/normalize";
 import type { BuildEvaluation, Selection } from "@/lib/compatibility/types";
 import { CategoryIcon } from "./CategoryIcon";
-
-/**
- * Category navigation. Vertical rail on desktop, horizontal scroller on mobile.
- *
- * Each item carries three independent signals — selected, active, and whether
- * any unresolved finding touches that category — so a user can see where a
- * problem lives without opening every step.
- */
+import s from "./Workspace.module.css";
 export function CategoryNav({
   selection,
   active,
@@ -22,65 +19,66 @@ export function CategoryNav({
   evaluation: BuildEvaluation;
   onGoto: (c: Category) => void;
 }) {
-  const issueFor = (c: Category) => {
-    const hits = evaluation.results.filter((r) => r.categories.includes(c) && r.status !== "compatible");
-    if (hits.some((r) => r.status === "incompatible")) return "fail" as const;
-    if (hits.length > 0) return "caution" as const;
-    return null;
-  };
-
+  const cpu = selection.cpu ? findPart(selection.cpu) : undefined;
   return (
-    <nav aria-label="Component categories">
-      <ol className="flex gap-2 overflow-x-auto pb-1 lg:flex-col lg:gap-1 lg:overflow-visible lg:pb-0">
+    <nav className={s.categoryNav} aria-label="Component categories">
+      <p className={s.eyebrow}>
+        The components <span>01—07</span>
+      </p>
+      <ol>
         {CATEGORIES.map((c, i) => {
-          const chosen = Boolean(selection[c]);
-          const isActive = c === active;
-          const issue = issueFor(c);
+          const included =
+            c === "cooler" &&
+            !selection.cooler &&
+            cpu &&
+            "cooler_included" in cpu &&
+            cpu.cooler_included;
+          const hits = evaluation.results.filter(
+            (r) => r.categories.includes(c) && r.status !== "compatible",
+          );
+          const state = hits.some((r) => r.status === "incompatible")
+            ? "Conflict"
+            : hits.length
+              ? "Check needed"
+              : selection[c]
+                ? "Selected"
+                : included
+                  ? "Included"
+                  : "Choose component";
           return (
-            <li key={c} className="shrink-0 lg:shrink">
+            <li key={c}>
               <button
                 type="button"
                 onClick={() => onGoto(c)}
-                aria-current={isActive ? "step" : undefined}
-                className={`group flex min-h-11 w-full items-center gap-3 rounded-lg px-3 py-2.5 text-left transition-colors ${
-                  isActive
-                    ? "bg-elevated text-ink shadow-[inset_0_1px_0_0_rgb(255_255_255/0.06)]"
-                    : "text-ink-muted hover:bg-raised/70 hover:text-ink"
-                }`}
+                aria-current={active === c ? "step" : undefined}
+                className={active === c ? s.categoryActive : ""}
               >
-                <span
-                  className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-md border transition-colors ${
-                    chosen
-                      ? "border-accent/50 bg-accent/15 text-accent-bright"
-                      : "border-line text-ink-faint group-hover:text-ink-muted"
-                  }`}
-                >
-                  <CategoryIcon category={c} />
+                <span className={s.stepNumber}>
+                  {String(i + 1).padStart(2, "0")}
                 </span>
-                <span className="flex min-w-0 flex-col">
-                  <span className="whitespace-nowrap text-sm font-medium lg:whitespace-normal">
-                    {CATEGORY_LABELS[c]}
-                  </span>
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-ink-faint">
-                    {chosen ? "Selected" : `Step ${i + 1}`}
-                  </span>
+                <CategoryIcon category={c} />
+                <span className={s.categoryText}>
+                  <strong>{CATEGORY_LABELS[c]}</strong>
+                  <small className={hits.length ? s.attention : ""}>
+                    {state}
+                  </small>
                 </span>
-                {issue ? (
-                  <span
-                    className={`ml-auto hidden h-1.5 w-1.5 shrink-0 rounded-full lg:block ${
-                      issue === "fail" ? "bg-status-fail" : "bg-status-caution"
-                    }`}
-                  >
-                    <span className="sr-only">
-                      {issue === "fail" ? "Has an incompatibility" : "Needs attention"}
-                    </span>
-                  </span>
-                ) : null}
+                <span className={s.stepMark} aria-hidden>
+                  {selection[c] || included ? "✓" : "↗"}
+                </span>
               </button>
             </li>
           );
         })}
       </ol>
+      <div className={s.railNote}>
+        <span aria-hidden>↳</span>
+        <p>
+          Seven choices.
+          <br />
+          One machine, made yours.
+        </p>
+      </div>
     </nav>
   );
 }

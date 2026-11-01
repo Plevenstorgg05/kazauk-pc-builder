@@ -1,0 +1,593 @@
+[
+  {
+    "productId": "cpu-r5-7600",
+    "productName": "AMD Ryzen 5 7600 (Box, Wraith Stealth)",
+    "sourcePage": "https://pcgamingcases.co.uk/products/pramd-7600",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/cpu-r5-7600-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/78a89b9f2bcead462f98b5975baa677c.jpg?v=1776189647&width=1206",
+        "alt": "AMD Ryzen 5 7600 (Box, Wraith Stealth) — retailer product photograph",
+        "width": 617,
+        "height": 611,
+        "originalWidth": 1206,
+        "originalHeight": 679
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html"
+  },
+  {
+    "productId": "cpu-r7-7800x3d",
+    "productName": "AMD Ryzen 7 7800X3D",
+    "sourcePage": "https://pcgamingcases.co.uk/products/amd-ry7-7800x3d-a",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/cpu-r7-7800x3d-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/AMD-RY7-7800X3D_263fd034-d63f-473d-8ea9-b7337ac2966c.jpg?v=1747750470&width=1206",
+        "alt": "AMD Ryzen 7 7800X3D — retailer product photograph",
+        "width": 470,
+        "height": 445,
+        "originalWidth": 500,
+        "originalHeight": 500
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html"
+  },
+  {
+    "productId": "cpu-r9-9900x",
+    "productName": "AMD Ryzen 9 9900X",
+    "sourcePage": "https://pcgamingcases.co.uk/products/amd-ry9-9900x",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "unresolved",
+    "images": [],
+    "issue": "Retailer image filename identifies 9900X3D; withheld to avoid confusing it with 9900X.",
+    "verification": "Not verified; category illustration only.",
+    "manufacturerPage": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html"
+  },
+  {
+    "productId": "mb-tuf-b650-plus-wifi",
+    "productName": "ASUS TUF GAMING B650-PLUS WIFI",
+    "sourcePage": "https://pcgamingcases.co.uk/products/west-90mb1bz0-m0eay0",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/mb-tuf-b650-plus-wifi-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/2984903d958c0242888130e2481fe526.jpg?v=1783725142&width=1206",
+        "alt": "ASUS TUF GAMING B650-PLUS WIFI — retailer product photograph",
+        "width": 1122,
+        "height": 852,
+        "originalWidth": 1206,
+        "originalHeight": 917
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus-wifi/"
+  },
+  {
+    "productId": "mb-tuf-b850-plus-wifi",
+    "productName": "ASUS TUF GAMING B850-PLUS WIFI",
+    "sourcePage": "https://pcgamingcases.co.uk/products/west-90mb1j30-m0eay0",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/mb-tuf-b850-plus-wifi-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/11c98360201bc0f4661cade8cdb83c6c.jpg?v=1783724853&width=1206",
+        "alt": "ASUS TUF GAMING B850-PLUS WIFI — retailer product photograph",
+        "width": 1127,
+        "height": 889,
+        "originalWidth": 1206,
+        "originalHeight": 973
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b850-plus-wifi/"
+  },
+  {
+    "productId": "mb-b850m-max-gaming-wifi",
+    "productName": "ASUS B850M MAX GAMING WIFI",
+    "sourcePage": "https://pcgamingcases.co.uk/products/west-90mb1ll0-m0eay0",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/mb-b850m-max-gaming-wifi-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/06b24bb6928d2d5cdce2e1f8bc259fca.jpg?v=1783724942&width=1206",
+        "alt": "ASUS B850M MAX GAMING WIFI — retailer product photograph",
+        "width": 1126,
+        "height": 727,
+        "originalWidth": 1206,
+        "originalHeight": 799
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.asus.com/motherboards-components/motherboards/others/b850m-max-gaming-wifi/"
+  },
+  {
+    "productId": "mb-x870-max-gaming-wifi7-w",
+    "productName": "ASUS X870 MAX GAMING WIFI7 W",
+    "sourcePage": "https://pcgamingcases.co.uk/products/west-90mb1lz0-m0eay0",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/mb-x870-max-gaming-wifi7-w-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/6f8de1b218549042fc0074febee4b8ea.jpg?v=1783724972&width=1206",
+        "alt": "ASUS X870 MAX GAMING WIFI7 W — retailer product photograph",
+        "width": 1128,
+        "height": 938,
+        "originalWidth": 1206,
+        "originalHeight": 1016
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.asus.com/motherboards-components/motherboards/others/x870-max-gaming-wifi7-w/"
+  },
+  {
+    "productId": "mb-asrock-b450m-hdv",
+    "productName": "ASRock B450M-HDV R4.0 (AM4) — TRAP ITEM",
+    "sourcePage": "https://pcgamingcases.co.uk/products/asrock-b450m-hdv-r4-0-socket-am4-amd-promontory-b450-ddr4-sata3-usb3-1-m-2-a-gbe-microatx-motherboard",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/mb-asrock-b450m-hdv-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/71nLeH6xRqL._AC_SX679.jpg?v=1749196505&width=1206",
+        "alt": "ASRock B450M-HDV R4.0 (AM4) — TRAP ITEM — retailer product photograph",
+        "width": 702,
+        "height": 420,
+        "originalWidth": 679,
+        "originalHeight": 397
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.asrock.com/mb/AMD/B450M-HDV%20R4.0/index.asp"
+  },
+  {
+    "productId": "ram-patriot-venom-32-6000",
+    "productName": "Patriot Viper Venom 32GB (2x16GB) DDR5-6000 PVV532G600C30K",
+    "sourcePage": "https://pcgamingcases.co.uk/products/sdpat-pvv532g30k",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/ram-patriot-venom-32-6000-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/429be5c691ea715c2f98bcb43e729cef.jpg?v=1776190355&width=1206",
+        "alt": "Patriot Viper Venom 32GB (2x16GB) DDR5-6000 PVV532G600C30K — retailer product photograph",
+        "width": 273,
+        "height": 164,
+        "originalWidth": 278,
+        "originalHeight": 200
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": null
+  },
+  {
+    "productId": "ram-fury-beast-32-5600-w",
+    "productName": "Kingston FURY Beast 32GB (2x16GB) DDR5-5600 CL36 White RGB EXPO",
+    "sourcePage": "https://pcgamingcases.co.uk/products/sdkin-kf55636bw2",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "unresolved",
+    "images": [],
+    "issue": "Retailer page unavailable; exact white RGB kit photography is not verified.",
+    "verification": "Not verified; category illustration only.",
+    "manufacturerPage": null
+  },
+  {
+    "productId": "ram-fury-beast-64-6000",
+    "productName": "Kingston FURY Beast 64GB (2x32GB) DDR5-6000 CL36 Black EXPO",
+    "sourcePage": "https://pcgamingcases.co.uk/products/sdkin-kf560c64gb",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/ram-fury-beast-64-6000-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/8078b0e4c847d2bc46e5f372c4eab321_5e1cf7e5-1409-4c54-892f-80a8eeb435e6.jpg?v=1774135592&width=1206",
+        "alt": "Kingston FURY Beast 64GB (2x32GB) DDR5-6000 CL36 Black EXPO — retailer product photograph",
+        "width": 1197,
+        "height": 718,
+        "originalWidth": 1206,
+        "originalHeight": 754
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": null
+  },
+  {
+    "productId": "ram-kvr-sodimm-32-5600",
+    "productName": "Kingston ValueRAM 32GB DDR5-5600 SO-DIMM — TRAP ITEM",
+    "sourcePage": "https://pcgamingcases.co.uk/products/sdkin-kvr56s46bd",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/ram-kvr-sodimm-32-5600-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/5b6fe143acf3d379995110ed8b614805.jpg?v=1774131871&width=1206",
+        "alt": "Kingston ValueRAM 32GB DDR5-5600 SO-DIMM — TRAP ITEM — retailer product photograph",
+        "width": 995,
+        "height": 444,
+        "originalWidth": 1206,
+        "originalHeight": 1206
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": null
+  },
+  {
+    "productId": "gpu-msi-5060-ventus-2x-oc",
+    "productName": "MSI GeForce RTX 5060 8G VENTUS 2X OC",
+    "sourcePage": "https://pcgamingcases.co.uk/products/msi-geforce-rtx-5060-ventus-2x-oc-8gb-gddr7-pci-express-5-0-2535mhz-28000mhz",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/gpu-msi-5060-ventus-2x-oc-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/20f7a44dce93fd850c78149c43349dfb.jpg?v=1774131772&width=1206",
+        "alt": "MSI GeForce RTX 5060 8G VENTUS 2X OC — retailer product photograph",
+        "width": 872,
+        "height": 729,
+        "originalWidth": 1024,
+        "originalHeight": 819
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-VENTUS-2X-OC/Overview"
+  },
+  {
+    "productId": "gpu-gb-5070ti-gaming-oc",
+    "productName": "GIGABYTE GeForce RTX 5070 Ti GAMING OC 16G",
+    "sourcePage": "https://pcgamingcases.co.uk/products/grgig-n5070tgoc",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/gpu-gb-5070ti-gaming-oc-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/3dcebb120959c0663288f13f17a244e9.jpg?v=1774128417&width=1206",
+        "alt": "GIGABYTE GeForce RTX 5070 Ti GAMING OC 16G — retailer product photograph",
+        "width": 1124,
+        "height": 1038,
+        "originalWidth": 1206,
+        "originalHeight": 1121
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.gigabyte.com/Graphics-Card/GV-N507TGAMING-OC-16GD"
+  },
+  {
+    "productId": "gpu-gb-5080-gaming-oc",
+    "productName": "GIGABYTE GeForce RTX 5080 GAMING OC 16G",
+    "sourcePage": "https://pcgamingcases.co.uk/products/grgig-n5080goc",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/gpu-gb-5080-gaming-oc-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/a7cda522ba182b8c306aecc384379def_5179f819-443c-4546-a1c0-fec18c222f3f.jpg?v=1774128458&width=1206",
+        "alt": "GIGABYTE GeForce RTX 5080 GAMING OC 16G — retailer product photograph",
+        "width": 1123,
+        "height": 1037,
+        "originalWidth": 1206,
+        "originalHeight": 1120
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.gigabyte.com/eu/Graphics-Card/GV-N5080GAMING-OC-16GD/sp"
+  },
+  {
+    "productId": "cool-wraith-stealth-boxed",
+    "productName": "AMD Wraith Stealth (boxed with Ryzen 5 7600)",
+    "sourcePage": null,
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "unresolved",
+    "images": [],
+    "issue": "No separate permitted exact-model photograph located.",
+    "verification": "Not verified; category illustration only.",
+    "manufacturerPage": null
+  },
+  {
+    "productId": "cool-deepcool-le240-v2",
+    "productName": "DeepCool LE240 V2 240mm AIO",
+    "sourcePage": "https://pcgamingcases.co.uk/products/fadee-le240",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/cool-deepcool-le240-v2-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/1cb93c487a83df5fc5214df3e0f52f7f.jpg?v=1774128059&width=1206",
+        "alt": "DeepCool LE240 V2 240mm AIO — retailer product photograph",
+        "width": 989,
+        "height": 454,
+        "originalWidth": 1206,
+        "originalHeight": 1206
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LE240-V2-Liquid-CPU-Cooler-1851-1700-AM5/2025/20136.shtml"
+  },
+  {
+    "productId": "cool-deepcool-lm360",
+    "productName": "DeepCool LM360 360mm AIO with 2.4\" display",
+    "sourcePage": "https://pcgamingcases.co.uk/products/fadee-lm360",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/cool-deepcool-lm360-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/81404969e83c7204776e3797a55b0975.jpg?v=1774128088&width=1206",
+        "alt": "DeepCool LM360 360mm AIO with 2.4\" display — retailer product photograph",
+        "width": 779,
+        "height": 335,
+        "originalWidth": 828,
+        "originalHeight": 380
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LM360-6th-Gen-ARGB-Liquid-Cooler-with-mini-LCD-Screen/2025/21346.shtml"
+  },
+  {
+    "productId": "cool-deepcool-spartacus-360",
+    "productName": "DeepCool Spartacus 360 AIO with 3.4\" LCD",
+    "sourcePage": "https://pcgamingcases.co.uk/products/fadee-spt360",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/cool-deepcool-spartacus-360-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/4ee21fe1c7c384cdd34ca14771ae6415.jpg?v=1774128132&width=1206",
+        "alt": "DeepCool Spartacus 360 AIO with 3.4\" LCD — retailer product photograph",
+        "width": 1122,
+        "height": 472,
+        "originalWidth": 1206,
+        "originalHeight": 556
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://deepcool.com/products/Cooling/cpuliquidcoolers/SPARTACUS-360-Fully-Customizable-6th-Gen-Liquid-Cooler-with-Silent-Ring-Fans/2025/22347.shtml"
+  },
+  {
+    "productId": "psu-tuf-650b",
+    "productName": "ASUS TUF-GAMING-650B 650W",
+    "sourcePage": "https://pcgamingcases.co.uk/products/west-90ye00d1-b0na00",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/psu-tuf-650b-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/c95dfb4503114fce795653be6f4eb949.jpg?v=1784239943&width=1206",
+        "alt": "ASUS TUF-GAMING-650B 650W — retailer product photograph",
+        "width": 1022,
+        "height": 939,
+        "originalWidth": 1206,
+        "originalHeight": 1206
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": null
+  },
+  {
+    "productId": "psu-tuf-750g-evo",
+    "productName": "ASUS TUF-GAMING-750G-EVO 750W",
+    "sourcePage": "https://pcgamingcases.co.uk/products/west-90ye00sb-b0na00",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/psu-tuf-750g-evo-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/e80c0f39bc7683ef40defbc0dfdcd78a.jpg?v=1784240004&width=1206",
+        "alt": "ASUS TUF-GAMING-750G-EVO 750W — retailer product photograph",
+        "width": 1098,
+        "height": 951,
+        "originalWidth": 1206,
+        "originalHeight": 1206
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.asus.com/motherboards-components/power-supply-units/tuf-gaming/tuf-gaming-750g-evo/"
+  },
+  {
+    "productId": "psu-corsair-rm850e",
+    "productName": "Corsair RM850e 850W",
+    "sourcePage": "https://pcgamingcases.co.uk/products/west-cp-9020258-uk",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/psu-corsair-rm850e-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/e19c2d60555dc57c4818f872d43026cd.jpg?v=1776809437&width=1206",
+        "alt": "Corsair RM850e 850W — retailer product photograph",
+        "width": 950,
+        "height": 896,
+        "originalWidth": 926,
+        "originalHeight": 926
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.corsair.com/uk/en/p/psu/cp-9020296-uk/rme-series-rm850e-fully-modular-low-noise-atx-power-supply-uk-cp-9020296-uk"
+  },
+  {
+    "productId": "psu-tuf-850g-evo",
+    "productName": "ASUS TUF-GAMING-850G-EVO 850W",
+    "sourcePage": "https://pcgamingcases.co.uk/products/west-90ye00sa-b0na00",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/psu-tuf-850g-evo-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/9905ff3025dfa8e278536767877ab448.jpg?v=1784240024&width=1206",
+        "alt": "ASUS TUF-GAMING-850G-EVO 850W — retailer product photograph",
+        "width": 1097,
+        "height": 951,
+        "originalWidth": 1206,
+        "originalHeight": 1206
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://www.asus.com/motherboards-components/power-supply-units/tuf-gaming/tuf-gaming-850g-evo/"
+  },
+  {
+    "productId": "psu-rog-thor-1000p3",
+    "productName": "ASUS ROG THOR 1000P3 1000W",
+    "sourcePage": "https://pcgamingcases.co.uk/products/west-90ye00v8-b0na00",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/psu-rog-thor-1000p3-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/1cf0e85201b9eb75d4466a944401c991.jpg?v=1784239923&width=1206",
+        "alt": "ASUS ROG THOR 1000P3 1000W — retailer product photograph",
+        "width": 1166,
+        "height": 830,
+        "originalWidth": 1206,
+        "originalHeight": 1206
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-1000p3-gaming/"
+  },
+  {
+    "productId": "case-ionz-kz-z-v2",
+    "productName": "IONZ KZ-Z Dual Dynamic Advanced V2",
+    "sourcePage": "https://ionz.co.uk/product/kz-z-v2/",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/case-ionz-kz-z-v2-1.webp",
+        "sourceUrl": "https://ionz.co.uk/wp-content/uploads/2024/02/KZ-Z-2_result-1024x935.jpg",
+        "alt": "IONZ KZ-Z Dual Dynamic Advanced V2 in white — three-quarter view",
+        "width": 885,
+        "height": 882,
+        "originalWidth": 1024,
+        "originalHeight": 935
+      },
+      {
+        "src": "/products/case-ionz-kz-z-v2-2.webp",
+        "sourceUrl": "https://ionz.co.uk/wp-content/uploads/2024/02/KZ-Z-3_result-1024x1024.jpg",
+        "alt": "IONZ KZ-Z Dual Dynamic Advanced V2 in white — rear view",
+        "width": 629,
+        "height": 867,
+        "originalWidth": 1024,
+        "originalHeight": 1024
+      },
+      {
+        "src": "/products/case-ionz-kz-z-v2-3.webp",
+        "sourceUrl": "https://ionz.co.uk/wp-content/uploads/2024/02/KZ-Z-1_result-1024x1024.jpg",
+        "alt": "IONZ KZ-Z Dual Dynamic Advanced V2 in white — side view",
+        "width": 924,
+        "height": 837,
+        "originalWidth": 1024,
+        "originalHeight": 1024
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": null
+  },
+  {
+    "productId": "case-ionz-kz-ze",
+    "productName": "IONZ KZ-ZE (White)",
+    "sourcePage": "https://pcgamingcases.co.uk/products/ionz-kz-ze-w-pc-gaming-case-atx-mid-tower-dual-chamber-dynamic-extended-series-tempered-glass-4-x-argb-pwm-fans-included-white",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/case-ionz-kz-ze-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/kz-zewhite5.jpg?v=1747748769&width=1206",
+        "alt": "IONZ KZ-ZE (White) — retailer product photograph",
+        "width": 405,
+        "height": 384,
+        "originalWidth": 381,
+        "originalHeight": 360
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": null
+  },
+  {
+    "productId": "case-ionz-kz-900-v2",
+    "productName": "IONZ KZ-900 V2 (Black)",
+    "sourcePage": "https://pcgamingcases.co.uk/products/ionz-kz-900-pc-gaming-case-v2",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/case-ionz-kz-900-v2-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/E5O2890.jpg?v=1747750869&width=1206",
+        "alt": "IONZ KZ-900 V2 (Black) — retailer product photograph",
+        "width": 987,
+        "height": 968,
+        "originalWidth": 1206,
+        "originalHeight": 1034
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": null
+  },
+  {
+    "productId": "case-ionz-flow-matx",
+    "productName": "IONZ Flow (mATX)",
+    "sourcePage": "https://pcgamingcases.co.uk/products/ionz-flow-pc-gaming-case-tempered-glass-mini-tower-dual-dynamic-compact-matx-front-i-o-type-c-includes-3-pwm-argb-fans",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/case-ionz-flow-matx-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/713rI2vfByL._AC_SL1500.jpg?v=1746537963&width=1206",
+        "alt": "IONZ Flow (mATX) — retailer product photograph",
+        "width": 1223,
+        "height": 1243,
+        "originalWidth": 1206,
+        "originalHeight": 1254
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": null
+  },
+  {
+    "productId": "case-ionz-ge336f-v2",
+    "productName": "IONZ GE336F V2 (Black)",
+    "sourcePage": "https://pcgamingcases.co.uk/products/ionz-ge336f-v2-xl-pc-gaming-case-tempered-glass-mid-tower-airflow-front-eatx-top-i-o-type-c-includes-4-argb-and-pwm-fans-black",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/case-ionz-ge336f-v2-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/GE336Fblack1.jpg?v=1747748762&width=1206",
+        "alt": "IONZ GE336F V2 (Black) — retailer product photograph",
+        "width": 690,
+        "height": 856,
+        "originalWidth": 679,
+        "originalHeight": 840
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": null
+  },
+  {
+    "productId": "case-ionz-apex-vision-w",
+    "productName": "IONZ APEX Vision ATX (White)",
+    "sourcePage": "https://pcgamingcases.co.uk/products/ionz-apex-vision-pc-gaming-case-atx-mid-tower-dual-chamber-with-4-argb-pwm-fans-lcd-screen-white",
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "status": "permitted",
+    "images": [
+      {
+        "src": "/products/case-ionz-apex-vision-w-1.webp",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/715HEwjNUtL._AC_SX679.jpg?v=1769007315&width=1206",
+        "alt": "IONZ APEX Vision ATX (White) — retailer product photograph",
+        "width": 655,
+        "height": 644,
+        "originalWidth": 679,
+        "originalHeight": 627
+      }
+    ],
+    "verification": "Matched to exact product source and visually reviewed on 2026-11-01.",
+    "manufacturerPage": null
+  }
+]

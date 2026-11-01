@@ -1,0 +1,169 @@
+.media {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  background: var(--media-surface, #e7e7e2);
+  color: #484846;
+  isolation: isolate;
+}
+.media .image {
+  object-fit: contain;
+  padding: var(--media-padding, 24px);
+  mix-blend-mode: multiply;
+  opacity: 0;
+  transition: opacity 0.18s ease;
+}
+.media .image[data-ready="true"] {
+  opacity: 1;
+}
+.illustration {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 20px 22px;
+  background: var(--media-surface, #e7e7e2);
+}
+.illustration > svg {
+  width: min(85%, 320px);
+  max-height: calc(100% - 40px);
+  flex: 1;
+  min-height: 0;
+  opacity: 0.85;
+}
+.caption {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  border-top: 1px solid #aaa9a4;
+  padding-top: 10px;
+  font:
+    8px var(--font-mono-tech),
+    monospace;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+.caption strong {
+  font-size: 7px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.caption span {
+  font-family: var(--font-inter), Arial, sans-serif;
+  letter-spacing: 0;
+  text-align: right;
+  color: #65655e;
+}
+.media[data-media-state="photo"] .illustration {
+  visibility: hidden;
+}
+.media[data-media-size="thumb"] .illustration {
+  padding: 3px;
+}
+.media[data-media-size="thumb"] .caption {
+  display: none;
+}
+.media[data-media-size="thumb"] .illustration > svg {
+  max-height: 100%;
+  width: 100%;
+}
+.media[data-media-size="row"] .illustration {
+  padding: 10px;
+}
+.media[data-media-size="row"] .caption {
+  display: block;
+  font-size: 6px;
+  text-align: center;
+  padding-top: 7px;
+}
+.media[data-media-size="row"] .caption strong {
+  font-size: 6px;
+  display: block;
+}
+.media[data-media-size="row"] .caption span {
+  display: block;
+  text-align: center;
+  font-size: 7px;
+  margin-top: 3px;
+}
+.media[data-media-size="row"] .illustration > svg {
+  max-height: calc(100% - 45px);
+  width: 100%;
+}
+.media[data-media-size="detail"] .illustration > svg {
+  width: min(90%, 400px);
+}
+@media (max-width: 679px) {
+  .media .image {
+    padding: var(--media-padding, 18px);
+  }
+  .caption {
+    font-size: 7px;
+    gap: 15px;
+  }
+  .caption strong {
+    font-size: 6px;
+  }
+  .media[data-media-size="row"] .caption span {
+    font-size: 6px;
+    line-height: 1.4;
+  }
+  .media[data-media-size="row"] .illustration {
+    padding: 7px;
+  }
+  .media[data-media-size="row"] .illustration > svg {
+    max-height: calc(100% - 38px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .media .image {
+    transition: none;
+  }
+}
+
+.media[data-media-size="row"] .caption strong {
+  font-size: 8px;
+}
+.media[data-media-size="row"] .caption span {
+  font-size: 7px;
+}
+.media .image {
+  transition:
+    opacity 0.18s ease,
+    transform 0.25s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .media .image {
+    transition: none;
+  }
+}
+
+.media .image {
+  transition: transform 0.2s ease;
+}
+.media[data-media-size="row"] .illustration > svg {
+  stroke-width: 2.2;
+  opacity: 1;
+}
+.media[data-media-size="thumb"] .illustration > svg {
+  stroke-width: 4;
+  opacity: 1;
+}
+.media:not([data-media-size="detail"]):not([data-media-size="row"]):not(
+    [data-media-size="thumb"]
+  )
+  .caption {
+  padding-right: 35px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .media .image {
+    transition: none;
+  }
+}

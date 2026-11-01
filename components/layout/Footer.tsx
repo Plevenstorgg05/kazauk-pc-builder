@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="border-t border-line/60 py-10">
       <Container className="flex flex-col gap-2 text-xs text-ink-faint">
         <p>
-          Technical demonstration. Not an official IONZ or PC Gaming Cases product, and not a
+          Technical demonstration. Not an official KAZAUK or PC Gaming Cases product, and not a
           live store.
         </p>
         <p>

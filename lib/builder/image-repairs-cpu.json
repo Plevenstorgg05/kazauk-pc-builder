@@ -1,0 +1,82 @@
+[
+  {
+    "productId": "cpu-r9-9900x",
+    "status": "verified",
+    "sourcePage": "https://pcgamingcases.co.uk/products/pramd-9900x",
+    "images": [
+      {
+        "src": "/products/repair-cpu-r9-9900x.webp",
+        "alt": "AMD Ryzen 9 9900X retail packaging — photograph from the exact retailer SKU 100-100000662WOF",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/a2bc32b869b3077fd309f8f68a2e088a.jpg?v=1776189788&width=1206",
+        "width": 868,
+        "height": 997
+      }
+    ],
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "verification": "Matched alternative PC Gaming Cases product page to manufacturer product ID 100-100000662WOF and visually inspected the Ryzen 9000-series retail box. The previously conflicting X3D image is not reused.",
+    "sourcesChecked": [
+      "https://pcgamingcases.co.uk/products/amd-ry9-9900x",
+      "https://pcgamingcases.co.uk/products/pramd-9900x",
+      "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html"
+    ],
+    "checked": "2026-11-01"
+  },
+  {
+    "productId": "ram-fury-beast-32-5600-w",
+    "status": "verified",
+    "sourcePage": "https://pcgamingcases.co.uk/products/sdkin-kf55636bw2",
+    "images": [
+      {
+        "src": "/products/repair-ram-fury-beast-32-5600-w.webp",
+        "alt": "Kingston FURY Beast White RGB DDR5 32 GB kit — exact KF556C36BWEAK2-32 retailer photograph",
+        "sourceUrl": "https://pcgamingcases.co.uk/cdn/shop/files/12cdc040d51eb1a580596fa8922d2793.jpg?v=1774130584&width=1206",
+        "width": 1172,
+        "height": 733
+      }
+    ],
+    "permission": "User confirmed permission for IONZ / PC Gaming Cases product photos on 1 November 2026.",
+    "verification": "Recovered exact product through the live RAM collection. Retailer SKU KF556C36BWEAK2-32 matches Kingston manufacturer search and data sheet. Visually inspected two white RGB DDR5 modules.",
+    "sourcesChecked": [
+      "https://pcgamingcases.co.uk/collections/ram?page=3",
+      "https://pcgamingcases.co.uk/products/sdkin-kf55636bw2",
+      "https://www.kingston.com/en/memory/search?partid=KF556C36BWEAK2-32",
+      "https://www.kingston.com/datasheets/KF556C36BWEAK2-32.pdf"
+    ],
+    "checked": "2026-11-01"
+  },
+  {
+    "productId": "cool-wraith-stealth-boxed",
+    "status": "unresolved",
+    "sourcePage": "https://www.amd.com/en/products/processors/ecosystem/cpu-cooler-solutions.html",
+    "images": [],
+    "permission": "No separate Wraith Stealth photograph reused. Manufacturer image permission for this independent demo is not established.",
+    "verification": "AMD official cooler page identifies the Wraith Stealth and lists Ryzen 5 7600 as supplied with it. PC Gaming Cases 7600 listing confirms the bundle but displays CPU packaging, not a separate cooler photograph.",
+    "reason": "An exact official cooler photograph was located, but the available brand-asset terms do not clearly establish this independent demo’s reuse rights. Use a clearly labelled cooler illustration.",
+    "rightsSource": "https://www.amd.com/en/legal/terms-and-conditions/media-library.html",
+    "sourcesChecked": [
+      "https://pcgamingcases.co.uk/products/pramd-7600",
+      "https://www.amd.com/en/products/processors/ecosystem/cpu-cooler-solutions.html",
+      "https://www.amd.com/content/dam/amd/en/documents/partner-hub/ryzen/amd-ryzen-7000-series-desktop-processors-quick-reference-guide.pdf",
+      "https://newsroom.amd.com/media-center/",
+      "https://www.amd.com/en/legal/terms-and-conditions/media-library.html"
+    ],
+    "checked": "2026-11-01"
+  },
+  {
+    "productId": "research-cpu-bx8071512400f",
+    "status": "unresolved",
+    "sourcePage": "https://pcgamingcases.co.uk/products/print-i512400f",
+    "images": [],
+    "permission": "No photograph reused from sources without established image permission.",
+    "verification": "Exact BX8071512400F retailer listing and Intel ARK 134587 confirmed. The permissioned retailer and Intel specifications page supply a generic Core i5 badge, not exact-model hardware photography. Other retailer photographs have no established reuse permission for this demo.",
+    "reason": "Exact-model photos found on an alternative retailer, but reuse permission is not established. The generic permissioned Core i5 tile is deliberately not presented as exact product photography; use a labelled processor illustration.",
+    "sourcesChecked": [
+      "https://pcgamingcases.co.uk/products/print-i512400f",
+      "https://pcgamingcases.co.uk/collections/intel-cpus-ddr4",
+      "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+      "https://houseofcomputers.co.uk/product/intel-core-i5-12400f-boxed-processor-6-cores-12-threads-4-4ghz-turbo-18mb-l3-cache-lga1700-socket/",
+      "https://www.bestbuy.com/product/intel-core-i5-12400f-12th-generation-6-core-12-thread-2-5-to-4-4-ghz-lga1700-desktop-processor-grey-black-gold/JXZRJ5KX49/sku/12534566"
+    ],
+    "checked": "2026-11-01"
+  }
+]

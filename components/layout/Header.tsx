@@ -6,7 +6,7 @@ export function Header() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-line/60 bg-void/70 backdrop-blur-md">
       <Container className="flex h-16 items-center justify-between">
         <Link href="/" className="font-mono text-sm font-semibold tracking-[0.25em] text-ink">
-          IONZ
+          KAZAUK
         </Link>
         <nav aria-label="Primary">
           {/*
