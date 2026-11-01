@@ -1,0 +1,22 @@
+# Vercel builds the normal Next.js app from source.
+.git
+.vercel
+.next
+node_modules
+out
+.cache
+coverage
+test-results
+playwright-report
+*.log
+*.tsbuildinfo
+
+# Downloaded source material is not a runtime asset.
+public/models/source
+
+# Never upload local credentials or machine-specific settings.
+.env*
+!.env.example
+.DS_Store
+.idea
+.vscode

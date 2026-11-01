@@ -40,3 +40,6 @@ public/models/source/*
 # Playwright
 test-results/
 playwright-report/
+
+# Vercel local project identity and downloaded environment settings
+.vercel/

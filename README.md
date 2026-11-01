@@ -22,7 +22,25 @@ npm start
 npx playwright test --workers=2
 ```
 
-## GitHub Pages
+## Vercel
+
+Import `Plevenstorgg05/kazauk-pc-builder` into Vercel using the Next.js framework preset, the repository root, `npm ci` and `npm run build`. Use the default Next.js output directory; do not select the GitHub Pages export or set `PAGES_BASE_PATH`. No environment variables are required by this demo.
+
+Alternatively, after signing in with the Vercel CLI:
+
+```sh
+npx vercel@latest login
+npx vercel@latest link --yes --project kazauk-pc-builder
+npx vercel@latest deploy --prod --yes
+```
+
+`.vercelignore` excludes local build output, environment files and the large original model downloads while retaining all runtime assets. The approved animation and the original Next.js configuration are used without alteration. Validate the deployed URL with:
+
+```sh
+PLAYWRIGHT_BASE_URL=https://YOUR-PROJECT.vercel.app npx playwright test --workers=2
+```
+
+## GitHub Pages (alternative)
 
 Pushing `main` runs `.github/workflows/pages.yml`. It checks source integrity, types, lint and unit tests, creates a static export, and runs desktop/mobile browser tests against that export before deployment. Pages uses the repository's GitHub Actions publishing source.
 
