@@ -92,3 +92,19 @@
   transition: top 0.15s ease;
 }
 .skip-link:focus { top: 1rem; }
+
+/*
+  Frame-sequence scroll distance.
+  ~90 frames over 600vh gives roughly 6.7vh of travel per frame on desktop:
+  fast enough to feel responsive, slow enough that no frame is skipped at
+  normal scroll speed. Mobile is shortened so the configurator stays reachable.
+*/
+.frame-scroll { height: 600vh; }
+@media (max-width: 1024px) { .frame-scroll { height: 460vh; } }
+@media (max-width: 640px)  { .frame-scroll { height: 380vh; } }
+
+@media (prefers-reduced-motion: reduce) {
+  /* No long pinned run for reduced-motion users. */
+  .frame-scroll { height: auto; }
+  .frame-scroll > div { position: static; height: auto; }
+}
