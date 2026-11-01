@@ -103,23 +103,57 @@ export function CinematicHero() {
     <>
       <div ref={containerRef} className="frame-scroll relative">
         <div className="sticky top-0 h-screen w-full overflow-hidden">
-          <div className="mx-auto flex h-full max-w-7xl flex-col items-center gap-6 px-4 pt-20 pb-12 sm:px-6 lg:grid lg:grid-cols-[1.05fr_minmax(0,0.95fr)] lg:items-center lg:gap-12 lg:px-10 lg:pt-16">
-            {/* Typography column — the negative space the portrait render leaves */}
-            <div className="relative order-2 min-h-[34vh] w-full lg:order-1 lg:h-[62vh]">
+          {/*
+            Full-bleed stage. The copy is overlaid on the render's own dark
+            negative space rather than sitting in a column beside it — a
+            portrait image in a side-by-side grid is height-capped, which left
+            the PC only ~58vh wide with large empty gutters. Full-height gives
+            it roughly 55% more presence.
+          */}
+          <div className="absolute inset-0">
+            <div
+              aria-hidden
+              className="pointer-events-none absolute left-1/2 top-1/2 h-[60%] w-[55%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/15 blur-[110px]"
+            />
+            <FrameStage onReady={handleStageReady} className="relative" />
+            {!ready && !failed ? (
+              <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
+                <div className="h-px w-32 overflow-hidden bg-line">
+                  <div
+                    className="h-full bg-accent transition-transform duration-200"
+                    style={{ transform: `scaleX(${progress})`, transformOrigin: "left" }}
+                  />
+                </div>
+                <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-ink-faint">
+                  {Math.round(progress * 100)}%
+                </span>
+              </div>
+            ) : null}
+          </div>
+
+          {/* Scrim: keeps the copy legible where it crosses the render. */}
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-0 bg-gradient-to-r from-void via-void/70 to-transparent lg:via-void/40 lg:to-transparent"
+          />
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-void to-transparent"
+          />
+
+          <div className="relative mx-auto flex h-full max-w-7xl items-end px-4 pb-20 sm:px-6 lg:items-center lg:px-10 lg:pb-0">
+            <div className="relative min-h-[36vh] w-full max-w-xl lg:min-h-[52vh] lg:max-w-lg">
               {BEATS.map((beat, i) => (
                 <div
                   key={beat.id}
                   data-beat={beat.id}
-                  /* Absolutely stacked on EVERY breakpoint, not just lg.
-                     Hiding beats on mobile would strand the CTA behind an
-                     animation phone users never reach. */
                   className="absolute inset-x-0 top-0 lg:top-1/2 lg:-translate-y-1/2"
                   style={{ opacity: i === 0 ? 1 : 0 }}
                 >
-                  <h2 className="text-balance pb-1 text-[clamp(1.75rem,5.5vw,3.75rem)] font-semibold leading-[1.1] tracking-tight">
+                  <h2 className="text-balance pb-1 text-[clamp(1.9rem,5.2vw,4rem)] font-semibold leading-[1.08] tracking-tight drop-shadow-[0_2px_24px_rgba(0,0,0,0.9)]">
                     {beat.heading}
                   </h2>
-                  <p className="mt-4 max-w-md text-base leading-relaxed text-ink-muted sm:text-lg">
+                  <p className="mt-4 max-w-md text-base leading-relaxed text-ink-muted drop-shadow-[0_1px_12px_rgba(0,0,0,0.9)] sm:text-lg">
                     {beat.body}
                   </p>
                   {beat.id === "cta" ? (
@@ -129,30 +163,6 @@ export function CinematicHero() {
                   ) : null}
                 </div>
               ))}
-            </div>
-
-            {/* Cinematic stage — portrait render given a portrait home */}
-            <div className="order-1 flex h-[46vh] w-full items-center justify-center lg:order-2 lg:h-[78vh]">
-              <div className="relative h-full w-full">
-                <div
-                  aria-hidden
-                  className="pointer-events-none absolute left-1/2 top-1/2 h-[70%] w-[70%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/15 blur-[90px]"
-                />
-                <FrameStage onReady={handleStageReady} className="relative" />
-                {!ready && !failed ? (
-                  <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
-                    <div className="h-px w-32 overflow-hidden bg-line">
-                      <div
-                        className="h-full bg-accent transition-transform duration-200"
-                        style={{ transform: `scaleX(${progress})`, transformOrigin: "left" }}
-                      />
-                    </div>
-                    <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-ink-faint">
-                      {Math.round(progress * 100)}%
-                    </span>
-                  </div>
-                ) : null}
-              </div>
             </div>
           </div>
 

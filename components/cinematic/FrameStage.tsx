@@ -51,7 +51,7 @@ export function FrameStage({
 
     ctx.clearRect(0, 0, targetW, targetH);
 
-    // Contain: fit entirely inside the box, preserving aspect, centred.
+    // Contain: fit entirely inside the box, preserving aspect.
     const boxAspect = targetW / targetH;
     let w: number, h: number;
     if (boxAspect > FRAME_ASPECT) {
@@ -61,7 +61,26 @@ export function FrameStage({
       w = targetW;
       h = w / FRAME_ASPECT;
     }
-    ctx.drawImage(source, (targetW - w) / 2, (targetH - h) / 2, w, h);
+
+    /*
+      The renders carry a margin of empty dark studio around the PC. A small
+      overscale reclaims some of it so the machine reads larger, without
+      cropping components — parts fly close to the frame edges by frame 61,
+      so this stays conservative.
+    */
+    const ZOOM = 1.1;
+    w *= ZOOM;
+    h *= ZOOM;
+
+    /*
+      On wide viewports the copy occupies the left third, so the PC is biased
+      right to sit clear of it. Narrow viewports stay centred, where the copy
+      sits below instead.
+    */
+    const wide = cssW >= 1024;
+    const biasX = wide ? targetW * 0.14 : 0;
+
+    ctx.drawImage(source, (targetW - w) / 2 + biasX, (targetH - h) / 2, w, h);
   }, []);
 
   useEffect(() => {
